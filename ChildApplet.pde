@@ -66,10 +66,10 @@ class ChildApplet extends PApplet {
       if (x > 510 && x < 590) {scout = 6; box1fill = 200; box2fill = 200; box3fill = 200; box4fill = 200; box5fill = 200; box6fill = 220;}
       redraw();
     }
-    //println("Box: " + scout + " x: " + x + " y: " + y);
+    println("Box: " + scout + " x: " + x + " y: " + y);
     int matchNum = 1;
     int factId = scout+((matchNum-1)*6);
-    //println(factId);
+    println(factId);
   
   } 
 }

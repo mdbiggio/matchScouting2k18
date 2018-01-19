@@ -1,6 +1,6 @@
 public class timer {
  // Fields
- float startTime=0;
+ int startTime=0;
  boolean timing;
  // Constructors
  public timer () {
@@ -18,7 +18,6 @@ public class timer {
   //return final time in seconds as a float:
   float endTimer() {
     float endTime = (millis()-startTime)/1000;
-    println("EndTime: "+endTime+" ");
     timing = false;
     startTime = 0;
     return endTime;
@@ -27,7 +26,7 @@ public class timer {
   //return current time
   float currTime() {
     if (timing) {
-      return (millis()-startTime)/1000;
+      return float (millis()-startTime)/1000;
     } else {
       return 0;
     }

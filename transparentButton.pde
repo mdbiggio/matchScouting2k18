@@ -7,7 +7,6 @@ public class transparentButton {
  String text;
  boolean activated;
  float[] boxCs = {0,0,0,0};
- float FinalTime;
  boolean isPickUp;
  
  private static final int kENTER = 10;
@@ -44,7 +43,7 @@ public class transparentButton {
       if(isPickUp) {
         cycleTimer.startTimer();
       } else {
-        FinalTime = cycleTimer.endTimer();
+        float FinalTime = cycleTimer.endTimer();
       }
       
       

@@ -34,7 +34,7 @@ public class textButtonGroup {
       ArrayList<textButton> sub = new ArrayList<textButton>();
       for (int i = 0; i<numButtonsX; i++) {
 
-        //println(i);
+        println(i);
         if (i == activatedButton) {
           activated = true;
         } else {
