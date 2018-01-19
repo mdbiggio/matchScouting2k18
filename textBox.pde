@@ -93,7 +93,7 @@ public class textBox {
       if(mX>this.boxCs[0] && mY>this.boxCs[1] && mX<this.boxCs[0]+this.boxCs[2] && mY<this.boxCs[1]+this.boxCs[3]) {
         activated = true;
         updateColor(220, 220, 220);
-        println(keyboard);
+        //println(keyboard);
         if (keyboard) {
           launch("C:/Program Files/Common Files/microsoft shared/ink/tabtip.exe");
         }

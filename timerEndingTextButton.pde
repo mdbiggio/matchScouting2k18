@@ -6,6 +6,7 @@ public class timerEndingTextButton {
  String text;
  boolean activated;
  float[] boxCs = {0,0,0,0};
+ float FinalTime;
  private static final int kENTER = 10;
  private static final int kBACKSPACE = 8;
  
@@ -51,7 +52,7 @@ public class timerEndingTextButton {
     activated = true;
     updateColor(220, 220, 220);
     count ++;
-    float FinalTime = cycleTimer.endTimer();
+    FinalTime = cycleTimer.endTimer();
   } else {activated = false; updateColor(200, 200, 200);}
 }
 }
