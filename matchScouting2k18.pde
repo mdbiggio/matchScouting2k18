@@ -17,6 +17,8 @@ boolean run = false;
 boolean matchEnded;
 Boolean timing = false;
 
+int NumOfValsInCyclTimes=0;
+
 String lastButtonPressed = "";
 String printButtonPressed = "";
 
@@ -51,10 +53,12 @@ int red = 0;
 int green = 0;
 int purple = 0;
 
-int page = 2;
+int page = 1;
 
 JSONArray values;
 int scoutNum;
+
+JSONObject pathTimes = new JSONObject();
 
 //timers:
 timer cycleTimer;
@@ -183,7 +187,7 @@ void setup () {
   cubePileZone = new transparentButton(430, 160, 130, 630, true);
   exchangeDropoff = new transparentButton(70, 160, 180, 630, false);
   exchangePickup = new transparentButton(250, 160, 180, 630, true);
-  droppedBox = new timerEndingTextButton(70, 880, 80, 80, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
+  droppedBox = new timerEndingTextButton(70, 880, 50, 50, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
 
 
   //page 3
@@ -347,22 +351,27 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         P2++;
+        saveCycleTime(2, opponentSwitch.FinalTime);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         P7++;
+        saveCycleTime(7, opponentSwitch.FinalTime);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         P12++;
+        saveCycleTime(12, opponentSwitch.FinalTime);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         P17++;
+        saveCycleTime(17, opponentSwitch.FinalTime);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         P22++;
+        saveCycleTime(22, opponentSwitch.FinalTime);
       }
       lastButtonPressed = "opponentSwitch";
       printButtonPressed = "Opponent Switch";
@@ -375,22 +384,27 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         P3++;
+        saveCycleTime(3, scale.FinalTime);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         P8++;
+        saveCycleTime(8, scale.FinalTime);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         P13++;
+        saveCycleTime(13, scale.FinalTime);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         P18++;
+        saveCycleTime(18, scale.FinalTime);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         P23++;
+        saveCycleTime(23, scale.FinalTime);
       }
       lastButtonPressed = "scale";
       printButtonPressed = "Scale";
@@ -403,22 +417,27 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         P1++;
+        saveCycleTime(1, allianceSwitch.FinalTime);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         P6++;
+        saveCycleTime(6, allianceSwitch.FinalTime);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         P11++;
+        saveCycleTime(11, allianceSwitch.FinalTime);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         P16++;
+        saveCycleTime(16, allianceSwitch.FinalTime);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         P21++;
+        saveCycleTime(21, allianceSwitch.FinalTime);
       }
       lastButtonPressed = "allianceSwitch";
       printButtonPressed = "Alliance Switch";
@@ -431,22 +450,27 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         P4++;
+        saveCycleTime(4, exchangeDropoff.FinalTime);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         P9++;
+        saveCycleTime(9, exchangeDropoff.FinalTime);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         P14++;
+        saveCycleTime(14, exchangeDropoff.FinalTime);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         P19++;
+        saveCycleTime(19, exchangeDropoff.FinalTime);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         P24++;
+        saveCycleTime(24, exchangeDropoff.FinalTime);
       }
       lastButtonPressed = "exchangeDropoff";
       printButtonPressed = "Exchange Dropoff";
@@ -459,22 +483,27 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         P5++;
+        saveCycleTime(5, droppedBox.FinalTime);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         P10++;
+        saveCycleTime(10, droppedBox.FinalTime);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         P15++;
+        saveCycleTime(15, droppedBox.FinalTime);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         P20++;
+        saveCycleTime(20, droppedBox.FinalTime);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         P25++;
+        saveCycleTime(25, droppedBox.FinalTime);
       }
       lastButtonPressed = "droppedBox";
       printButtonPressed = "Dropped Box";
@@ -516,7 +545,7 @@ void mousePressed() {
   // this is the places where things stay on all pages.
   pageSelect.mousePressed();
   page = pageSelect.checkedBox+1;
-  println(page);
+  //println(page);
     
 }
   
@@ -608,7 +637,7 @@ void draw() {
     cubePileZone.draw();
     droppedBox.draw();
     
-    print(printButtonPressed);
+    //print(printButtonPressed);
     fill(0,0,0);
     rect(0,1140,800,60);
     
@@ -620,7 +649,7 @@ void draw() {
     }
     if(purple == 1) {
      fill (138, 43, 226); 
-    }                        
+    }
     text( printButtonPressed, 0, 1165);
     
     
@@ -664,8 +693,8 @@ void updateAlli() {
 
 void loadJSON(int MATCH) {
   values = loadJSONArray("galileoDivisionStart.json");
-  println("match: " + MATCH);
-  println("scout: " + child.scout);
+  //println("match: " + MATCH);
+  //println("scout: " + child.scout);
 
   int i = (MATCH-1)*6;
   i = i+child.scout;
@@ -681,8 +710,8 @@ void loadJSON(int MATCH) {
 
   String TEAMNUMs = str(TEAMNUM);
 
-  println(i + ", " + alli + ", " + MATCHNUM + ", " + TEAMNUM + ", " + tournament);
-  println(alli);
+  //println(i + ", " + alli + ", " + MATCHNUM + ", " + TEAMNUM + ", " + tournament);
+  //println(alli);
   updateAlli(); 
   teamNumber.input = TEAMNUMs;
 }
@@ -722,14 +751,13 @@ void saveJSON() {
   match.setBoolean("Parts on the Field", potf.isChecked);
   match.setBoolean("Flip", flippedOver.isChecked);
   match.setBoolean("Attempted Climb", attemptedClimb.isChecked);
-  match.setBoolean("Succsseful Climb", successfulClimb.isChecked);
+  match.setBoolean("Successful Climb", successfulClimb.isChecked);
   match.setBoolean("No Show", noShow.isChecked);
   match.setInt("Tournament", tournament.checkedBox); 
   match.setBoolean("Yellow Card", yellowCard.isChecked);
   match.setBoolean("Red Card", redCard.isChecked);
-  match.setBoolean("Tech Foul", techFoul1.isChecked);
-  match.setBoolean("Foul", foul1.isChecked);
   match.setInt( "Dropped Box", droppedBox.count);
+
 
   values1.setJSONObject(i, match);
   saveJSONArray(values1, "data/dataOut.json");
@@ -771,9 +799,23 @@ void timer() {
     }
   }
 }
-void cycletime() {
-  JSONArray cycletime;
-  cycletime = new JSONArray();
-  cycletime = loadJSONArray("cycleTimes");
+void saveCycleTime(int Path, float seconds) {
   
+  println("Path: "+Path+" Seconds: "+seconds);
+  
+  JSONArray cycleTimes = new JSONArray();
+  cycleTimes = loadJSONArray("data/cycleTimes.JSON");
+  
+  JSONObject cycleTime = new JSONObject();
+  
+  //if(Path==1){
+  cycleTime.setFloat(str(Path),seconds);//}
+
+  
+  println(cycleTime);
+  cycleTimes.setJSONObject(NumOfValsInCyclTimes, cycleTime);
+  println(cycleTimes);
+  saveJSONArray(cycleTimes, "data/cycleTimes.JSON");
+  
+  NumOfValsInCyclTimes++;
 }
