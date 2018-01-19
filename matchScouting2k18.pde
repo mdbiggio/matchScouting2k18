@@ -806,8 +806,11 @@ void saveCycleTime(int Path, float seconds) {
   println("Path: "+Path+" Seconds: "+seconds);
   
   JSONArray cycleTimes = new JSONArray();
-  cycleTimes = loadJSONArray("data/cycleTimes.JSON");
-  
+  try {
+    cycleTimes = loadJSONArray("data/cycleTimes.JSON");
+  }  catch(NullPointerException e) {
+    saveJSONArray(cycleTimes, "data/cycleTimes.JSON");
+  }
   JSONObject cycleTime = new JSONObject();
   
   //if(Path==1){
