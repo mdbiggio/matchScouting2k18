@@ -187,7 +187,7 @@ void setup () {
   cubePileZone = new transparentButton(430, 160, 130, 630, true);
   exchangeDropoff = new transparentButton(70, 160, 180, 630, false);
   exchangePickup = new transparentButton(250, 160, 180, 630, true);
-  droppedBox = new timerEndingTextButton(70, 880, 50, 50, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
+  droppedBox = new timerEndingTextButton(70, 880, 80, 80, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
 
 
   //page 3
@@ -756,6 +756,8 @@ void saveJSON() {
   match.setInt("Tournament", tournament.checkedBox); 
   match.setBoolean("Yellow Card", yellowCard.isChecked);
   match.setBoolean("Red Card", redCard.isChecked);
+  match.setBoolean("Tech Foul", techFoul1.isChecked);
+  match.setBoolean("Foul", foul1.isChecked);
   match.setInt( "Dropped Box", droppedBox.count);
 
 
