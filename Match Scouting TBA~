@@ -1,0 +1,10 @@
+App TBA:
+
+For individual clients, have a predefined file that has a list of all teams that will be scouted by that client for the entire event. being able to advance the match number, and then read the file, set the team number from the file and then at the end of each match, send the data to the server. End match number auto advances match number.
+
+For server, take in data from individual clients at the emd of each match.eventually put into excel.
+
+For Client - Make time bigger in top right corner.
+	also have the server send the clients a command to start the timers all at once.
+
+Client checkbox - broke the field.
