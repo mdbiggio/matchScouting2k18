@@ -352,27 +352,28 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         paths[1][1] = paths[1][1]+1;
-        saveCycleTime(2, opponentSwitch.FinalTime);
+        saveCycleTime(2, opponentSwitch.FinalTime, paths[1][1]);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         paths[6][1] = paths[6][1]+1;
-        saveCycleTime(7, opponentSwitch.FinalTime);
+        saveCycleTime(7, opponentSwitch.FinalTime, paths[6][1]);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         paths[11][1] = paths[11][1]+1;
-        saveCycleTime(12, opponentSwitch.FinalTime);
+        saveCycleTime(12, opponentSwitch.FinalTime, paths[11][1]);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         paths[16][1] = paths[16][1]+1;
-        saveCycleTime(17, opponentSwitch.FinalTime);
+        println("path 17 count: "+paths[16][1]);
+        saveCycleTime(17, opponentSwitch.FinalTime, paths[16][1]);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         paths[21][1] = paths[21][1]+1;
-        saveCycleTime(22, opponentSwitch.FinalTime);
+        saveCycleTime(22, opponentSwitch.FinalTime, paths[21][1]);
       }
       lastButtonPressed = "opponentSwitch";
       printButtonPressed = "Opponent Switch";
@@ -385,27 +386,27 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         paths[2][1] = paths[2][1]+1;
-        saveCycleTime(3, scale.FinalTime);
+        saveCycleTime(3, scale.FinalTime, paths[2][1]);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         paths[7][1] = paths[7][1]+1;
-        saveCycleTime(8, scale.FinalTime);
+        saveCycleTime(8, scale.FinalTime, paths[7][1]);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         paths[12][1] = paths[12][1]+1;
-        saveCycleTime(13, scale.FinalTime);
+        saveCycleTime(13, scale.FinalTime, paths[12][1]);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         paths[17][1] = paths[17][1]+1;
-        saveCycleTime(18, scale.FinalTime);
+        saveCycleTime(18, scale.FinalTime, paths[17][1]);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         paths[22][1] = paths[22][1]+1;
-        saveCycleTime(23, scale.FinalTime);
+        saveCycleTime(23, scale.FinalTime, paths[22][1]);
       }
       lastButtonPressed = "scale";
       printButtonPressed = "Scale";
@@ -418,28 +419,28 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         paths[0][1] = paths[0][1]+1;
-        saveCycleTime(1, allianceSwitch.FinalTime);
+        saveCycleTime(1, allianceSwitch.FinalTime, paths[0][1]);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         paths[5][1] = paths[5][1]+1;
-        saveCycleTime(6, allianceSwitch.FinalTime);
+        saveCycleTime(6, allianceSwitch.FinalTime, paths[5][1]);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         paths[10][1] = paths[10][1]+1;
-        saveCycleTime(11, allianceSwitch.FinalTime);
+        saveCycleTime(11, allianceSwitch.FinalTime, paths[10][1]);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         
         paths[15][1] = paths[15][1]+1;
-        saveCycleTime(16, allianceSwitch.FinalTime);
+        saveCycleTime(16, allianceSwitch.FinalTime, paths[15][1]);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         paths[20][1] = paths[20][1]+1;
-        saveCycleTime(21, allianceSwitch.FinalTime);
+        saveCycleTime(21, allianceSwitch.FinalTime, paths[20][1]);
       }
       lastButtonPressed = "allianceSwitch";
       printButtonPressed = "Alliance Switch";
@@ -452,27 +453,27 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         paths[3][1] = paths[3][1]+1;
-        saveCycleTime(4, exchangeDropoff.FinalTime);
+        saveCycleTime(4, exchangeDropoff.FinalTime, paths[3][1]);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         paths[8][1] = paths[8][1]+1;
-        saveCycleTime(9, exchangeDropoff.FinalTime);
+        saveCycleTime(9, exchangeDropoff.FinalTime, paths[8][1]);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         paths[13][1] = paths[13][1]+1;
-        saveCycleTime(14, exchangeDropoff.FinalTime);
+        saveCycleTime(14, exchangeDropoff.FinalTime, paths[13][1]);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         paths[18][1] = paths[18][1]+1;
-        saveCycleTime(19, exchangeDropoff.FinalTime);
+        saveCycleTime(19, exchangeDropoff.FinalTime, paths[18][1]);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         paths[23][1] = paths[23][1]+1;
-        saveCycleTime(24, exchangeDropoff.FinalTime);
+        saveCycleTime(24, exchangeDropoff.FinalTime, paths[23][1]);
       }
       lastButtonPressed = "exchangeDropoff";
       printButtonPressed = "Exchange Dropoff";
@@ -485,27 +486,27 @@ void mousePressed() {
       if (lastButtonPressed=="portal")
       {
         paths[4][1] = paths[4][1]+1;
-        saveCycleTime(5, droppedBox.FinalTime);
+        saveCycleTime(5, droppedBox.FinalTime, paths[4][1]);
       }
       if (lastButtonPressed=="exchangePickup")
       {
         paths[9][1] = paths[9][1]+1;
-        saveCycleTime(10, droppedBox.FinalTime);
+        saveCycleTime(10, droppedBox.FinalTime, paths[9][1]);
       }
       if (lastButtonPressed=="cubePileZone")
       {
         paths[14][1] = paths[14][1]+1;
-        saveCycleTime(15, droppedBox.FinalTime);
+        saveCycleTime(15, droppedBox.FinalTime, paths[14][1]);
       }
       if (lastButtonPressed=="cubeLineZone")
       {
         paths[19][1] = paths[19][1]+1;
-        saveCycleTime(20, droppedBox.FinalTime);
+        saveCycleTime(20, droppedBox.FinalTime, paths[19][1]);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
       {
         paths[24][1] = paths[24][1]+1;
-        saveCycleTime(25, droppedBox.FinalTime);
+        saveCycleTime(25, droppedBox.FinalTime, paths[24][1]);
       }
       lastButtonPressed = "droppedBox";
       printButtonPressed = "Dropped Box";
@@ -804,7 +805,7 @@ void timer() {
     }
   }
 }
-void saveCycleTime(int Path, float seconds) {
+void saveCycleTime(int Path, float seconds, int currPathCount) {
   
   println("Path: "+Path+" Seconds: "+seconds);
   
@@ -815,9 +816,10 @@ void saveCycleTime(int Path, float seconds) {
     saveJSONArray(cycleTimes, "data/cycleTimes.JSON");
   }
   JSONObject cycleTime = new JSONObject();
-  int pathCount = paths[Path][1];
+  //int pathCount = paths[Path][1];
+  println("Path Count: "+currPathCount+" For path: "+Path);
   
-  cycleTime.setFloat("P"+str(Path)+":"+pathCount,seconds);//}
+  cycleTime.setFloat("P"+str(Path)+":"+currPathCount,seconds);//}
 
   
   println(cycleTime);
