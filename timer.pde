@@ -13,6 +13,7 @@ public class timer {
   // set the starting time to millis()
   void startTimer() {
     startTime = millis();
+    println("Started timer");
     timing = true;
   }
   //return final time in seconds as a float:
