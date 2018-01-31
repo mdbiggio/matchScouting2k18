@@ -1,6 +1,6 @@
 class ChildApplet extends PApplet {
   int scout = 0;
-  
+  int alliance = 0;
   int box1fill = 200;
   int box2fill = 200;
   int box3fill = 200;
@@ -57,19 +57,21 @@ class ChildApplet extends PApplet {
   public void mousePressed() {
     int x = mouseX;
     int y = mouseY;
-    if (y > 10 && y < 90) {
-      if (x > 10 && x < 110) {scout = 1; box1fill = 220; box2fill = 200; box3fill = 200; box4fill = 200; box5fill = 200; box5fill = 200;}
-      if (x > 110 && x < 190) {scout = 2; box1fill = 200; box2fill = 220; box3fill = 200; box4fill = 200; box5fill = 200; box6fill = 200;}
-      if (x > 210 && x < 290) {scout = 3; box1fill = 200; box2fill = 200; box3fill = 220; box4fill = 200; box5fill = 200; box6fill = 200;}
-      if (x > 310 && x < 390) {scout = 4; box1fill = 200; box2fill = 200; box3fill = 200; box4fill = 220; box5fill = 200; box6fill = 200;}
-      if (x > 410 && x < 490) {scout = 5; box1fill = 200; box2fill = 200; box3fill = 200; box4fill = 200; box5fill = 220; box6fill = 200;}
-      if (x > 510 && x < 590) {scout = 6; box1fill = 200; box2fill = 200; box3fill = 200; box4fill = 200; box5fill = 200; box6fill = 220;}
+      if (y > 10 && y < 90)   {
+      if (x > 10 && x < 110)  {scoutNum = 1;scout = 1; alliance = 1; box1fill = 220; box2fill = 200; box3fill = 200; box4fill = 200; box5fill = 200; box5fill = 200;}
+      if (x > 110 && x < 190) {scoutNum = 2;scout = 2; alliance = 1; box1fill = 200; box2fill = 220; box3fill = 200; box4fill = 200; box5fill = 200; box6fill = 200;}
+      if (x > 210 && x < 290) {scoutNum = 3;scout = 3; alliance = 1; box1fill = 200; box2fill = 200; box3fill = 220; box4fill = 200; box5fill = 200; box6fill = 200;}
+      if (x > 310 && x < 390) {scoutNum = 4;scout = 4; alliance = 2; box1fill = 200; box2fill = 200; box3fill = 200; box4fill = 220; box5fill = 200; box6fill = 200;}
+      if (x > 410 && x < 490) {scoutNum = 5;scout = 5; alliance = 2; box1fill = 200; box2fill = 200; box3fill = 200; box4fill = 200; box5fill = 220; box6fill = 200;}
+      if (x > 510 && x < 590) {scoutNum = 6;scout = 6; alliance = 2; box1fill = 200; box2fill = 200; box3fill = 200; box4fill = 200; box5fill = 200; box6fill = 220;}
       redraw();
     }
     //println("Box: " + scout + " x: " + x + " y: " + y);
     int matchNum = 1;
     int factId = scout+((matchNum-1)*6);
     //println(factId);
+    
+    
   
   } 
 }

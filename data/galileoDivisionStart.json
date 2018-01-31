@@ -1,0 +1,4032 @@
+[{
+  "Team #": 6658,
+  "Alliance": "Blue",
+  "FactId": 1,
+  "Match #": 1
+},
+{
+  "Team #": 5572,
+  "Alliance": "Blue",
+  "FactId": 2,
+  "Match #": 1
+},
+{
+  "Team #": 5190,
+  "Alliance": "Blue",
+  "FactId": 3,
+  "Match #": 1
+},
+{
+  "Team #": 3966,
+  "Alliance": "Red",
+  "FactId": 4,
+  "Match #": 1
+},
+{
+  "Team #": 4841,
+  "Alliance": "Red",
+  "FactId": 5,
+  "Match #": 1
+},
+{
+  "Team #": 4080,
+  "Alliance": "Red",
+  "FactId": 6,
+  "Match #": 1
+},
+{
+  "Team #": 701,
+  "Alliance": "Blue",
+  "FactId": 7,
+  "Match #": 2
+},
+{
+  "Team #": 386,
+  "Alliance": "Blue",
+  "FactId": 8,
+  "Match #": 2
+},
+{
+  "Team #": 3303,
+  "Alliance": "Blue",
+  "FactId": 9,
+  "Match #": 2
+},
+{
+  "Team #": 4355,
+  "Alliance": "Red",
+  "FactId": 10,
+  "Match #": 2
+},
+{
+  "Team #": 3512,
+  "Alliance": "Red",
+  "FactId": 11,
+  "Match #": 2
+},
+{
+  "Team #": 4112,
+  "Alliance": "Red",
+  "FactId": 12,
+  "Match #": 2
+},
+{
+  "Team #": 86,
+  "Alliance": "Blue",
+  "FactId": 13,
+  "Match #": 3
+},
+{
+  "Team #": 2415,
+  "Alliance": "Blue",
+  "FactId": 14,
+  "Match #": 3
+},
+{
+  "Team #": 5074,
+  "Alliance": "Blue",
+  "FactId": 15,
+  "Match #": 3
+},
+{
+  "Team #": 6404,
+  "Alliance": "Red",
+  "FactId": 16,
+  "Match #": 3
+},
+{
+  "Team #": 662,
+  "Alliance": "Red",
+  "FactId": 17,
+  "Match #": 3
+},
+{
+  "Team #": 5696,
+  "Alliance": "Red",
+  "FactId": 18,
+  "Match #": 3
+},
+{
+  "Team #": 4010,
+  "Alliance": "Blue",
+  "FactId": 19,
+  "Match #": 4
+},
+{
+  "Team #": 6464,
+  "Alliance": "Blue",
+  "FactId": 20,
+  "Match #": 4
+},
+{
+  "Team #": 4516,
+  "Alliance": "Blue",
+  "FactId": 21,
+  "Match #": 4
+},
+{
+  "Team #": 2486,
+  "Alliance": "Red",
+  "FactId": 22,
+  "Match #": 4
+},
+{
+  "Team #": 4534,
+  "Alliance": "Red",
+  "FactId": 23,
+  "Match #": 4
+},
+{
+  "Team #": 6547,
+  "Alliance": "Red",
+  "FactId": 24,
+  "Match #": 4
+},
+{
+  "Team #": 4499,
+  "Alliance": "Blue",
+  "FactId": 25,
+  "Match #": 5
+},
+{
+  "Team #": 2333,
+  "Alliance": "Blue",
+  "FactId": 26,
+  "Match #": 5
+},
+{
+  "Team #": 6445,
+  "Alliance": "Blue",
+  "FactId": 27,
+  "Match #": 5
+},
+{
+  "Team #": 6579,
+  "Alliance": "Red",
+  "FactId": 28,
+  "Match #": 5
+},
+{
+  "Team #": 1538,
+  "Alliance": "Red",
+  "FactId": 29,
+  "Match #": 5
+},
+{
+  "Team #": 2630,
+  "Alliance": "Red",
+  "FactId": 30,
+  "Match #": 5
+},
+{
+  "Team #": 2576,
+  "Alliance": "Blue",
+  "FactId": 31,
+  "Match #": 6
+},
+{
+  "Team #": 6357,
+  "Alliance": "Blue",
+  "FactId": 32,
+  "Match #": 6
+},
+{
+  "Team #": 5654,
+  "Alliance": "Blue",
+  "FactId": 33,
+  "Match #": 6
+},
+{
+  "Team #": 5437,
+  "Alliance": "Red",
+  "FactId": 34,
+  "Match #": 6
+},
+{
+  "Team #": 3574,
+  "Alliance": "Red",
+  "FactId": 35,
+  "Match #": 6
+},
+{
+  "Team #": 4904,
+  "Alliance": "Red",
+  "FactId": 36,
+  "Match #": 6
+},
+{
+  "Team #": 3959,
+  "Alliance": "Blue",
+  "FactId": 37,
+  "Match #": 7
+},
+{
+  "Team #": 6474,
+  "Alliance": "Blue",
+  "FactId": 38,
+  "Match #": 7
+},
+{
+  "Team #": 3507,
+  "Alliance": "Blue",
+  "FactId": 39,
+  "Match #": 7
+},
+{
+  "Team #": 3478,
+  "Alliance": "Red",
+  "FactId": 40,
+  "Match #": 7
+},
+{
+  "Team #": 5109,
+  "Alliance": "Red",
+  "FactId": 41,
+  "Match #": 7
+},
+{
+  "Team #": 3005,
+  "Alliance": "Red",
+  "FactId": 42,
+  "Match #": 7
+},
+{
+  "Team #": 2152,
+  "Alliance": "Blue",
+  "FactId": 43,
+  "Match #": 8
+},
+{
+  "Team #": 587,
+  "Alliance": "Blue",
+  "FactId": 44,
+  "Match #": 8
+},
+{
+  "Team #": 498,
+  "Alliance": "Blue",
+  "FactId": 45,
+  "Match #": 8
+},
+{
+  "Team #": 6739,
+  "Alliance": "Red",
+  "FactId": 46,
+  "Match #": 8
+},
+{
+  "Team #": 4335,
+  "Alliance": "Red",
+  "FactId": 47,
+  "Match #": 8
+},
+{
+  "Team #": 4388,
+  "Alliance": "Red",
+  "FactId": 48,
+  "Match #": 8
+},
+{
+  "Team #": 368,
+  "Alliance": "Blue",
+  "FactId": 49,
+  "Match #": 9
+},
+{
+  "Team #": 3635,
+  "Alliance": "Blue",
+  "FactId": 50,
+  "Match #": 9
+},
+{
+  "Team #": 192,
+  "Alliance": "Blue",
+  "FactId": 51,
+  "Match #": 9
+},
+{
+  "Team #": 3045,
+  "Alliance": "Red",
+  "FactId": 52,
+  "Match #": 9
+},
+{
+  "Team #": 2231,
+  "Alliance": "Red",
+  "FactId": 53,
+  "Match #": 9
+},
+{
+  "Team #": 4201,
+  "Alliance": "Red",
+  "FactId": 54,
+  "Match #": 9
+},
+{
+  "Team #": 3211,
+  "Alliance": "Blue",
+  "FactId": 55,
+  "Match #": 10
+},
+{
+  "Team #": 6061,
+  "Alliance": "Blue",
+  "FactId": 56,
+  "Match #": 10
+},
+{
+  "Team #": 492,
+  "Alliance": "Blue",
+  "FactId": 57,
+  "Match #": 10
+},
+{
+  "Team #": 199,
+  "Alliance": "Red",
+  "FactId": 58,
+  "Match #": 10
+},
+{
+  "Team #": 1817,
+  "Alliance": "Red",
+  "FactId": 59,
+  "Match #": 10
+},
+{
+  "Team #": 4364,
+  "Alliance": "Red",
+  "FactId": 60,
+  "Match #": 10
+},
+{
+  "Team #": 2135,
+  "Alliance": "Blue",
+  "FactId": 61,
+  "Match #": 11
+},
+{
+  "Team #": 5414,
+  "Alliance": "Blue",
+  "FactId": 62,
+  "Match #": 11
+},
+{
+  "Team #": 6171,
+  "Alliance": "Blue",
+  "FactId": 63,
+  "Match #": 11
+},
+{
+  "Team #": 6411,
+  "Alliance": "Red",
+  "FactId": 64,
+  "Match #": 11
+},
+{
+  "Team #": 5411,
+  "Alliance": "Red",
+  "FactId": 65,
+  "Match #": 11
+},
+{
+  "Team #": 4537,
+  "Alliance": "Red",
+  "FactId": 66,
+  "Match #": 11
+},
+{
+  "Team #": 5109,
+  "Alliance": "Blue",
+  "FactId": 67,
+  "Match #": 12
+},
+{
+  "Team #": 3959,
+  "Alliance": "Blue",
+  "FactId": 68,
+  "Match #": 12
+},
+{
+  "Team #": 6191,
+  "Alliance": "Blue",
+  "FactId": 69,
+  "Match #": 12
+},
+{
+  "Team #": 2333,
+  "Alliance": "Red",
+  "FactId": 70,
+  "Match #": 12
+},
+{
+  "Team #": 2576,
+  "Alliance": "Red",
+  "FactId": 71,
+  "Match #": 12
+},
+{
+  "Team #": 3512,
+  "Alliance": "Red",
+  "FactId": 72,
+  "Match #": 12
+},
+{
+  "Team #": 6739,
+  "Alliance": "Blue",
+  "FactId": 73,
+  "Match #": 13
+},
+{
+  "Team #": 587,
+  "Alliance": "Blue",
+  "FactId": 74,
+  "Match #": 13
+},
+{
+  "Team #": 3478,
+  "Alliance": "Blue",
+  "FactId": 75,
+  "Match #": 13
+},
+{
+  "Team #": 4904,
+  "Alliance": "Red",
+  "FactId": 76,
+  "Match #": 13
+},
+{
+  "Team #": 5074,
+  "Alliance": "Red",
+  "FactId": 77,
+  "Match #": 13
+},
+{
+  "Team #": 2630,
+  "Alliance": "Red",
+  "FactId": 78,
+  "Match #": 13
+},
+{
+  "Team #": 4010,
+  "Alliance": "Blue",
+  "FactId": 79,
+  "Match #": 14
+},
+{
+  "Team #": 3635,
+  "Alliance": "Blue",
+  "FactId": 80,
+  "Match #": 14
+},
+{
+  "Team #": 4355,
+  "Alliance": "Blue",
+  "FactId": 81,
+  "Match #": 14
+},
+{
+  "Team #": 4388,
+  "Alliance": "Red",
+  "FactId": 82,
+  "Match #": 14
+},
+{
+  "Team #": 5437,
+  "Alliance": "Red",
+  "FactId": 83,
+  "Match #": 14
+},
+{
+  "Team #": 4080,
+  "Alliance": "Red",
+  "FactId": 84,
+  "Match #": 14
+},
+{
+  "Team #": 4534,
+  "Alliance": "Blue",
+  "FactId": 85,
+  "Match #": 15
+},
+{
+  "Team #": 6404,
+  "Alliance": "Blue",
+  "FactId": 86,
+  "Match #": 15
+},
+{
+  "Team #": 199,
+  "Alliance": "Blue",
+  "FactId": 87,
+  "Match #": 15
+},
+{
+  "Team #": 368,
+  "Alliance": "Red",
+  "FactId": 88,
+  "Match #": 15
+},
+{
+  "Team #": 386,
+  "Alliance": "Red",
+  "FactId": 89,
+  "Match #": 15
+},
+{
+  "Team #": 5572,
+  "Alliance": "Red",
+  "FactId": 90,
+  "Match #": 15
+},
+{
+  "Team #": 3507,
+  "Alliance": "Blue",
+  "FactId": 91,
+  "Match #": 16
+},
+{
+  "Team #": 662,
+  "Alliance": "Blue",
+  "FactId": 92,
+  "Match #": 16
+},
+{
+  "Team #": 4841,
+  "Alliance": "Blue",
+  "FactId": 93,
+  "Match #": 16
+},
+{
+  "Team #": 2152,
+  "Alliance": "Red",
+  "FactId": 94,
+  "Match #": 16
+},
+{
+  "Team #": 4516,
+  "Alliance": "Red",
+  "FactId": 95,
+  "Match #": 16
+},
+{
+  "Team #": 6547,
+  "Alliance": "Red",
+  "FactId": 96,
+  "Match #": 16
+},
+{
+  "Team #": 6579,
+  "Alliance": "Blue",
+  "FactId": 97,
+  "Match #": 17
+},
+{
+  "Team #": 6061,
+  "Alliance": "Blue",
+  "FactId": 98,
+  "Match #": 17
+},
+{
+  "Team #": 4201,
+  "Alliance": "Blue",
+  "FactId": 99,
+  "Match #": 17
+},
+{
+  "Team #": 6474,
+  "Alliance": "Red",
+  "FactId": 100,
+  "Match #": 17
+},
+{
+  "Team #": 6191,
+  "Alliance": "Red",
+  "FactId": 101,
+  "Match #": 17
+},
+{
+  "Team #": 5696,
+  "Alliance": "Red",
+  "FactId": 102,
+  "Match #": 17
+},
+{
+  "Team #": 4112,
+  "Alliance": "Blue",
+  "FactId": 103,
+  "Match #": 18
+},
+{
+  "Team #": 3005,
+  "Alliance": "Blue",
+  "FactId": 104,
+  "Match #": 18
+},
+{
+  "Team #": 6357,
+  "Alliance": "Blue",
+  "FactId": 105,
+  "Match #": 18
+},
+{
+  "Team #": 4335,
+  "Alliance": "Red",
+  "FactId": 106,
+  "Match #": 18
+},
+{
+  "Team #": 2231,
+  "Alliance": "Red",
+  "FactId": 107,
+  "Match #": 18
+},
+{
+  "Team #": 2135,
+  "Alliance": "Red",
+  "FactId": 108,
+  "Match #": 18
+},
+{
+  "Team #": 4364,
+  "Alliance": "Blue",
+  "FactId": 109,
+  "Match #": 19
+},
+{
+  "Team #": 3966,
+  "Alliance": "Blue",
+  "FactId": 110,
+  "Match #": 19
+},
+{
+  "Team #": 5654,
+  "Alliance": "Blue",
+  "FactId": 111,
+  "Match #": 19
+},
+{
+  "Team #": 1817,
+  "Alliance": "Red",
+  "FactId": 112,
+  "Match #": 19
+},
+{
+  "Team #": 4499,
+  "Alliance": "Red",
+  "FactId": 113,
+  "Match #": 19
+},
+{
+  "Team #": 498,
+  "Alliance": "Red",
+  "FactId": 114,
+  "Match #": 19
+},
+{
+  "Team #": 5414,
+  "Alliance": "Blue",
+  "FactId": 115,
+  "Match #": 20
+},
+{
+  "Team #": 6445,
+  "Alliance": "Blue",
+  "FactId": 116,
+  "Match #": 20
+},
+{
+  "Team #": 2415,
+  "Alliance": "Blue",
+  "FactId": 117,
+  "Match #": 20
+},
+{
+  "Team #": 192,
+  "Alliance": "Red",
+  "FactId": 118,
+  "Match #": 20
+},
+{
+  "Team #": 5190,
+  "Alliance": "Red",
+  "FactId": 119,
+  "Match #": 20
+},
+{
+  "Team #": 3303,
+  "Alliance": "Red",
+  "FactId": 120,
+  "Match #": 20
+},
+{
+  "Team #": 86,
+  "Alliance": "Blue",
+  "FactId": 121,
+  "Match #": 21
+},
+{
+  "Team #": 3574,
+  "Alliance": "Blue",
+  "FactId": 122,
+  "Match #": 21
+},
+{
+  "Team #": 3045,
+  "Alliance": "Blue",
+  "FactId": 123,
+  "Match #": 21
+},
+{
+  "Team #": 6464,
+  "Alliance": "Red",
+  "FactId": 124,
+  "Match #": 21
+},
+{
+  "Team #": 6658,
+  "Alliance": "Red",
+  "FactId": 125,
+  "Match #": 21
+},
+{
+  "Team #": 4537,
+  "Alliance": "Red",
+  "FactId": 126,
+  "Match #": 21
+},
+{
+  "Team #": 6171,
+  "Alliance": "Blue",
+  "FactId": 127,
+  "Match #": 22
+},
+{
+  "Team #": 6411,
+  "Alliance": "Blue",
+  "FactId": 128,
+  "Match #": 22
+},
+{
+  "Team #": 3211,
+  "Alliance": "Blue",
+  "FactId": 129,
+  "Match #": 22
+},
+{
+  "Team #": 492,
+  "Alliance": "Red",
+  "FactId": 130,
+  "Match #": 22
+},
+{
+  "Team #": 2486,
+  "Alliance": "Red",
+  "FactId": 131,
+  "Match #": 22
+},
+{
+  "Team #": 701,
+  "Alliance": "Red",
+  "FactId": 132,
+  "Match #": 22
+},
+{
+  "Team #": 4080,
+  "Alliance": "Blue",
+  "FactId": 133,
+  "Match #": 23
+},
+{
+  "Team #": 4516,
+  "Alliance": "Blue",
+  "FactId": 134,
+  "Match #": 23
+},
+{
+  "Team #": 1538,
+  "Alliance": "Blue",
+  "FactId": 135,
+  "Match #": 23
+},
+{
+  "Team #": 5411,
+  "Alliance": "Red",
+  "FactId": 136,
+  "Match #": 23
+},
+{
+  "Team #": 587,
+  "Alliance": "Red",
+  "FactId": 137,
+  "Match #": 23
+},
+{
+  "Team #": 2576,
+  "Alliance": "Red",
+  "FactId": 138,
+  "Match #": 23
+},
+{
+  "Team #": 3507,
+  "Alliance": "Blue",
+  "FactId": 139,
+  "Match #": 24
+},
+{
+  "Team #": 4201,
+  "Alliance": "Blue",
+  "FactId": 140,
+  "Match #": 24
+},
+{
+  "Team #": 2152,
+  "Alliance": "Blue",
+  "FactId": 141,
+  "Match #": 24
+},
+{
+  "Team #": 2630,
+  "Alliance": "Red",
+  "FactId": 142,
+  "Match #": 24
+},
+{
+  "Team #": 3512,
+  "Alliance": "Red",
+  "FactId": 143,
+  "Match #": 24
+},
+{
+  "Team #": 4364,
+  "Alliance": "Red",
+  "FactId": 144,
+  "Match #": 24
+},
+{
+  "Team #": 5696,
+  "Alliance": "Blue",
+  "FactId": 145,
+  "Match #": 25
+},
+{
+  "Team #": 3635,
+  "Alliance": "Blue",
+  "FactId": 146,
+  "Match #": 25
+},
+{
+  "Team #": 6445,
+  "Alliance": "Blue",
+  "FactId": 147,
+  "Match #": 25
+},
+{
+  "Team #": 2135,
+  "Alliance": "Red",
+  "FactId": 148,
+  "Match #": 25
+},
+{
+  "Team #": 1817,
+  "Alliance": "Red",
+  "FactId": 149,
+  "Match #": 25
+},
+{
+  "Team #": 6191,
+  "Alliance": "Red",
+  "FactId": 150,
+  "Match #": 25
+},
+{
+  "Team #": 6547,
+  "Alliance": "Blue",
+  "FactId": 151,
+  "Match #": 26
+},
+{
+  "Team #": 6404,
+  "Alliance": "Blue",
+  "FactId": 152,
+  "Match #": 26
+},
+{
+  "Team #": 4904,
+  "Alliance": "Blue",
+  "FactId": 153,
+  "Match #": 26
+},
+{
+  "Team #": 5414,
+  "Alliance": "Red",
+  "FactId": 154,
+  "Match #": 26
+},
+{
+  "Team #": 6658,
+  "Alliance": "Red",
+  "FactId": 155,
+  "Match #": 26
+},
+{
+  "Team #": 199,
+  "Alliance": "Red",
+  "FactId": 156,
+  "Match #": 26
+},
+{
+  "Team #": 4537,
+  "Alliance": "Blue",
+  "FactId": 157,
+  "Match #": 27
+},
+{
+  "Team #": 3211,
+  "Alliance": "Blue",
+  "FactId": 158,
+  "Match #": 27
+},
+{
+  "Team #": 3005,
+  "Alliance": "Blue",
+  "FactId": 159,
+  "Match #": 27
+},
+{
+  "Team #": 6464,
+  "Alliance": "Red",
+  "FactId": 160,
+  "Match #": 27
+},
+{
+  "Team #": 3478,
+  "Alliance": "Red",
+  "FactId": 161,
+  "Match #": 27
+},
+{
+  "Team #": 3303,
+  "Alliance": "Red",
+  "FactId": 162,
+  "Match #": 27
+},
+{
+  "Team #": 2333,
+  "Alliance": "Blue",
+  "FactId": 163,
+  "Match #": 28
+},
+{
+  "Team #": 4335,
+  "Alliance": "Blue",
+  "FactId": 164,
+  "Match #": 28
+},
+{
+  "Team #": 5190,
+  "Alliance": "Blue",
+  "FactId": 165,
+  "Match #": 28
+},
+{
+  "Team #": 662,
+  "Alliance": "Red",
+  "FactId": 166,
+  "Match #": 28
+},
+{
+  "Team #": 386,
+  "Alliance": "Red",
+  "FactId": 167,
+  "Match #": 28
+},
+{
+  "Team #": 6411,
+  "Alliance": "Red",
+  "FactId": 168,
+  "Match #": 28
+},
+{
+  "Team #": 3045,
+  "Alliance": "Blue",
+  "FactId": 169,
+  "Match #": 29
+},
+{
+  "Team #": 4499,
+  "Alliance": "Blue",
+  "FactId": 170,
+  "Match #": 29
+},
+{
+  "Team #": 2486,
+  "Alliance": "Blue",
+  "FactId": 171,
+  "Match #": 29
+},
+{
+  "Team #": 4388,
+  "Alliance": "Red",
+  "FactId": 172,
+  "Match #": 29
+},
+{
+  "Team #": 6357,
+  "Alliance": "Red",
+  "FactId": 173,
+  "Match #": 29
+},
+{
+  "Team #": 5109,
+  "Alliance": "Red",
+  "FactId": 174,
+  "Match #": 29
+},
+{
+  "Team #": 1538,
+  "Alliance": "Blue",
+  "FactId": 175,
+  "Match #": 30
+},
+{
+  "Team #": 701,
+  "Alliance": "Blue",
+  "FactId": 176,
+  "Match #": 30
+},
+{
+  "Team #": 4010,
+  "Alliance": "Blue",
+  "FactId": 177,
+  "Match #": 30
+},
+{
+  "Team #": 4841,
+  "Alliance": "Red",
+  "FactId": 178,
+  "Match #": 30
+},
+{
+  "Team #": 3959,
+  "Alliance": "Red",
+  "FactId": 179,
+  "Match #": 30
+},
+{
+  "Team #": 192,
+  "Alliance": "Red",
+  "FactId": 180,
+  "Match #": 30
+},
+{
+  "Team #": 4112,
+  "Alliance": "Blue",
+  "FactId": 181,
+  "Match #": 31
+},
+{
+  "Team #": 6061,
+  "Alliance": "Blue",
+  "FactId": 182,
+  "Match #": 31
+},
+{
+  "Team #": 368,
+  "Alliance": "Blue",
+  "FactId": 183,
+  "Match #": 31
+},
+{
+  "Team #": 5411,
+  "Alliance": "Red",
+  "FactId": 184,
+  "Match #": 31
+},
+{
+  "Team #": 3574,
+  "Alliance": "Red",
+  "FactId": 185,
+  "Match #": 31
+},
+{
+  "Team #": 3966,
+  "Alliance": "Red",
+  "FactId": 186,
+  "Match #": 31
+},
+{
+  "Team #": 5074,
+  "Alliance": "Blue",
+  "FactId": 187,
+  "Match #": 32
+},
+{
+  "Team #": 492,
+  "Alliance": "Blue",
+  "FactId": 188,
+  "Match #": 32
+},
+{
+  "Team #": 4355,
+  "Alliance": "Blue",
+  "FactId": 189,
+  "Match #": 32
+},
+{
+  "Team #": 5654,
+  "Alliance": "Red",
+  "FactId": 190,
+  "Match #": 32
+},
+{
+  "Team #": 86,
+  "Alliance": "Red",
+  "FactId": 191,
+  "Match #": 32
+},
+{
+  "Team #": 498,
+  "Alliance": "Red",
+  "FactId": 192,
+  "Match #": 32
+},
+{
+  "Team #": 5572,
+  "Alliance": "Blue",
+  "FactId": 193,
+  "Match #": 33
+},
+{
+  "Team #": 5437,
+  "Alliance": "Blue",
+  "FactId": 194,
+  "Match #": 33
+},
+{
+  "Team #": 2231,
+  "Alliance": "Blue",
+  "FactId": 195,
+  "Match #": 33
+},
+{
+  "Team #": 2415,
+  "Alliance": "Red",
+  "FactId": 196,
+  "Match #": 33
+},
+{
+  "Team #": 6474,
+  "Alliance": "Red",
+  "FactId": 197,
+  "Match #": 33
+},
+{
+  "Team #": 6739,
+  "Alliance": "Red",
+  "FactId": 198,
+  "Match #": 33
+},
+{
+  "Team #": 2135,
+  "Alliance": "Blue",
+  "FactId": 199,
+  "Match #": 34
+},
+{
+  "Team #": 3478,
+  "Alliance": "Blue",
+  "FactId": 200,
+  "Match #": 34
+},
+{
+  "Team #": 6579,
+  "Alliance": "Blue",
+  "FactId": 201,
+  "Match #": 34
+},
+{
+  "Team #": 2152,
+  "Alliance": "Red",
+  "FactId": 202,
+  "Match #": 34
+},
+{
+  "Team #": 6171,
+  "Alliance": "Red",
+  "FactId": 203,
+  "Match #": 34
+},
+{
+  "Team #": 4534,
+  "Alliance": "Red",
+  "FactId": 204,
+  "Match #": 34
+},
+{
+  "Team #": 6658,
+  "Alliance": "Blue",
+  "FactId": 205,
+  "Match #": 35
+},
+{
+  "Team #": 3005,
+  "Alliance": "Blue",
+  "FactId": 206,
+  "Match #": 35
+},
+{
+  "Team #": 4010,
+  "Alliance": "Blue",
+  "FactId": 207,
+  "Match #": 35
+},
+{
+  "Team #": 5190,
+  "Alliance": "Red",
+  "FactId": 208,
+  "Match #": 35
+},
+{
+  "Team #": 2630,
+  "Alliance": "Red",
+  "FactId": 209,
+  "Match #": 35
+},
+{
+  "Team #": 386,
+  "Alliance": "Red",
+  "FactId": 210,
+  "Match #": 35
+},
+{
+  "Team #": 4388,
+  "Alliance": "Blue",
+  "FactId": 211,
+  "Match #": 36
+},
+{
+  "Team #": 3045,
+  "Alliance": "Blue",
+  "FactId": 212,
+  "Match #": 36
+},
+{
+  "Team #": 587,
+  "Alliance": "Blue",
+  "FactId": 213,
+  "Match #": 36
+},
+{
+  "Team #": 2576,
+  "Alliance": "Red",
+  "FactId": 214,
+  "Match #": 36
+},
+{
+  "Team #": 199,
+  "Alliance": "Red",
+  "FactId": 215,
+  "Match #": 36
+},
+{
+  "Team #": 662,
+  "Alliance": "Red",
+  "FactId": 216,
+  "Match #": 36
+},
+{
+  "Team #": 4841,
+  "Alliance": "Blue",
+  "FactId": 217,
+  "Match #": 37
+},
+{
+  "Team #": 6357,
+  "Alliance": "Blue",
+  "FactId": 218,
+  "Match #": 37
+},
+{
+  "Team #": 5696,
+  "Alliance": "Blue",
+  "FactId": 219,
+  "Match #": 37
+},
+{
+  "Team #": 5109,
+  "Alliance": "Red",
+  "FactId": 220,
+  "Match #": 37
+},
+{
+  "Team #": 192,
+  "Alliance": "Red",
+  "FactId": 221,
+  "Match #": 37
+},
+{
+  "Team #": 498,
+  "Alliance": "Red",
+  "FactId": 222,
+  "Match #": 37
+},
+{
+  "Team #": 1538,
+  "Alliance": "Blue",
+  "FactId": 223,
+  "Match #": 38
+},
+{
+  "Team #": 2333,
+  "Alliance": "Blue",
+  "FactId": 224,
+  "Match #": 38
+},
+{
+  "Team #": 2231,
+  "Alliance": "Blue",
+  "FactId": 225,
+  "Match #": 38
+},
+{
+  "Team #": 86,
+  "Alliance": "Red",
+  "FactId": 226,
+  "Match #": 38
+},
+{
+  "Team #": 2486,
+  "Alliance": "Red",
+  "FactId": 227,
+  "Match #": 38
+},
+{
+  "Team #": 3211,
+  "Alliance": "Red",
+  "FactId": 228,
+  "Match #": 38
+},
+{
+  "Team #": 6191,
+  "Alliance": "Blue",
+  "FactId": 229,
+  "Match #": 39
+},
+{
+  "Team #": 2415,
+  "Alliance": "Blue",
+  "FactId": 230,
+  "Match #": 39
+},
+{
+  "Team #": 6547,
+  "Alliance": "Blue",
+  "FactId": 231,
+  "Match #": 39
+},
+{
+  "Team #": 6171,
+  "Alliance": "Red",
+  "FactId": 232,
+  "Match #": 39
+},
+{
+  "Team #": 4364,
+  "Alliance": "Red",
+  "FactId": 233,
+  "Match #": 39
+},
+{
+  "Team #": 368,
+  "Alliance": "Red",
+  "FactId": 234,
+  "Match #": 39
+},
+{
+  "Team #": 6404,
+  "Alliance": "Blue",
+  "FactId": 235,
+  "Match #": 40
+},
+{
+  "Team #": 5411,
+  "Alliance": "Blue",
+  "FactId": 236,
+  "Match #": 40
+},
+{
+  "Team #": 3512,
+  "Alliance": "Blue",
+  "FactId": 237,
+  "Match #": 40
+},
+{
+  "Team #": 1817,
+  "Alliance": "Red",
+  "FactId": 238,
+  "Match #": 40
+},
+{
+  "Team #": 6579,
+  "Alliance": "Red",
+  "FactId": 239,
+  "Match #": 40
+},
+{
+  "Team #": 5437,
+  "Alliance": "Red",
+  "FactId": 240,
+  "Match #": 40
+},
+{
+  "Team #": 6474,
+  "Alliance": "Blue",
+  "FactId": 241,
+  "Match #": 41
+},
+{
+  "Team #": 4112,
+  "Alliance": "Blue",
+  "FactId": 242,
+  "Match #": 41
+},
+{
+  "Team #": 3635,
+  "Alliance": "Blue",
+  "FactId": 243,
+  "Match #": 41
+},
+{
+  "Team #": 4534,
+  "Alliance": "Red",
+  "FactId": 244,
+  "Match #": 41
+},
+{
+  "Team #": 5654,
+  "Alliance": "Red",
+  "FactId": 245,
+  "Match #": 41
+},
+{
+  "Team #": 5414,
+  "Alliance": "Red",
+  "FactId": 246,
+  "Match #": 41
+},
+{
+  "Team #": 6464,
+  "Alliance": "Blue",
+  "FactId": 247,
+  "Match #": 42
+},
+{
+  "Team #": 6411,
+  "Alliance": "Blue",
+  "FactId": 248,
+  "Match #": 42
+},
+{
+  "Team #": 4904,
+  "Alliance": "Blue",
+  "FactId": 249,
+  "Match #": 42
+},
+{
+  "Team #": 3959,
+  "Alliance": "Red",
+  "FactId": 250,
+  "Match #": 42
+},
+{
+  "Team #": 4355,
+  "Alliance": "Red",
+  "FactId": 251,
+  "Match #": 42
+},
+{
+  "Team #": 6061,
+  "Alliance": "Red",
+  "FactId": 252,
+  "Match #": 42
+},
+{
+  "Team #": 492,
+  "Alliance": "Blue",
+  "FactId": 253,
+  "Match #": 43
+},
+{
+  "Team #": 4080,
+  "Alliance": "Blue",
+  "FactId": 254,
+  "Match #": 43
+},
+{
+  "Team #": 3574,
+  "Alliance": "Blue",
+  "FactId": 255,
+  "Match #": 43
+},
+{
+  "Team #": 4201,
+  "Alliance": "Red",
+  "FactId": 256,
+  "Match #": 43
+},
+{
+  "Team #": 3303,
+  "Alliance": "Red",
+  "FactId": 257,
+  "Match #": 43
+},
+{
+  "Team #": 4335,
+  "Alliance": "Red",
+  "FactId": 258,
+  "Match #": 43
+},
+{
+  "Team #": 4499,
+  "Alliance": "Blue",
+  "FactId": 259,
+  "Match #": 44
+},
+{
+  "Team #": 5074,
+  "Alliance": "Blue",
+  "FactId": 260,
+  "Match #": 44
+},
+{
+  "Team #": 4537,
+  "Alliance": "Blue",
+  "FactId": 261,
+  "Match #": 44
+},
+{
+  "Team #": 701,
+  "Alliance": "Red",
+  "FactId": 262,
+  "Match #": 44
+},
+{
+  "Team #": 5572,
+  "Alliance": "Red",
+  "FactId": 263,
+  "Match #": 44
+},
+{
+  "Team #": 3507,
+  "Alliance": "Red",
+  "FactId": 264,
+  "Match #": 44
+},
+{
+  "Team #": 3966,
+  "Alliance": "Blue",
+  "FactId": 265,
+  "Match #": 45
+},
+{
+  "Team #": 6739,
+  "Alliance": "Blue",
+  "FactId": 266,
+  "Match #": 45
+},
+{
+  "Team #": 3512,
+  "Alliance": "Blue",
+  "FactId": 267,
+  "Match #": 45
+},
+{
+  "Team #": 3211,
+  "Alliance": "Red",
+  "FactId": 268,
+  "Match #": 45
+},
+{
+  "Team #": 6445,
+  "Alliance": "Red",
+  "FactId": 269,
+  "Match #": 45
+},
+{
+  "Team #": 4516,
+  "Alliance": "Red",
+  "FactId": 270,
+  "Match #": 45
+},
+{
+  "Team #": 199,
+  "Alliance": "Blue",
+  "FactId": 271,
+  "Match #": 46
+},
+{
+  "Team #": 192,
+  "Alliance": "Blue",
+  "FactId": 272,
+  "Match #": 46
+},
+{
+  "Team #": 5437,
+  "Alliance": "Blue",
+  "FactId": 273,
+  "Match #": 46
+},
+{
+  "Team #": 6191,
+  "Alliance": "Red",
+  "FactId": 274,
+  "Match #": 46
+},
+{
+  "Team #": 2152,
+  "Alliance": "Red",
+  "FactId": 275,
+  "Match #": 46
+},
+{
+  "Team #": 3005,
+  "Alliance": "Red",
+  "FactId": 276,
+  "Match #": 46
+},
+{
+  "Team #": 4355,
+  "Alliance": "Blue",
+  "FactId": 277,
+  "Match #": 47
+},
+{
+  "Team #": 498,
+  "Alliance": "Blue",
+  "FactId": 278,
+  "Match #": 47
+},
+{
+  "Team #": 6404,
+  "Alliance": "Blue",
+  "FactId": 279,
+  "Match #": 47
+},
+{
+  "Team #": 1538,
+  "Alliance": "Red",
+  "FactId": 280,
+  "Match #": 47
+},
+{
+  "Team #": 3045,
+  "Alliance": "Red",
+  "FactId": 281,
+  "Match #": 47
+},
+{
+  "Team #": 3478,
+  "Alliance": "Red",
+  "FactId": 282,
+  "Match #": 47
+},
+{
+  "Team #": 4904,
+  "Alliance": "Blue",
+  "FactId": 283,
+  "Match #": 48
+},
+{
+  "Team #": 2486,
+  "Alliance": "Blue",
+  "FactId": 284,
+  "Match #": 48
+},
+{
+  "Team #": 662,
+  "Alliance": "Blue",
+  "FactId": 285,
+  "Match #": 48
+},
+{
+  "Team #": 4201,
+  "Alliance": "Red",
+  "FactId": 286,
+  "Match #": 48
+},
+{
+  "Team #": 4112,
+  "Alliance": "Red",
+  "FactId": 287,
+  "Match #": 48
+},
+{
+  "Team #": 4364,
+  "Alliance": "Red",
+  "FactId": 288,
+  "Match #": 48
+},
+{
+  "Team #": 3959,
+  "Alliance": "Blue",
+  "FactId": 289,
+  "Match #": 49
+},
+{
+  "Team #": 4388,
+  "Alliance": "Blue",
+  "FactId": 290,
+  "Match #": 49
+},
+{
+  "Team #": 368,
+  "Alliance": "Blue",
+  "FactId": 291,
+  "Match #": 49
+},
+{
+  "Team #": 5696,
+  "Alliance": "Red",
+  "FactId": 292,
+  "Match #": 49
+},
+{
+  "Team #": 4537,
+  "Alliance": "Red",
+  "FactId": 293,
+  "Match #": 49
+},
+{
+  "Team #": 4335,
+  "Alliance": "Red",
+  "FactId": 294,
+  "Match #": 49
+},
+{
+  "Team #": 4516,
+  "Alliance": "Blue",
+  "FactId": 295,
+  "Match #": 50
+},
+{
+  "Team #": 2231,
+  "Alliance": "Blue",
+  "FactId": 296,
+  "Match #": 50
+},
+{
+  "Team #": 6411,
+  "Alliance": "Blue",
+  "FactId": 297,
+  "Match #": 50
+},
+{
+  "Team #": 1817,
+  "Alliance": "Red",
+  "FactId": 298,
+  "Match #": 50
+},
+{
+  "Team #": 4010,
+  "Alliance": "Red",
+  "FactId": 299,
+  "Match #": 50
+},
+{
+  "Team #": 5074,
+  "Alliance": "Red",
+  "FactId": 300,
+  "Match #": 50
+},
+{
+  "Team #": 6445,
+  "Alliance": "Blue",
+  "FactId": 301,
+  "Match #": 51
+},
+{
+  "Team #": 6171,
+  "Alliance": "Blue",
+  "FactId": 302,
+  "Match #": 51
+},
+{
+  "Team #": 2630,
+  "Alliance": "Blue",
+  "FactId": 303,
+  "Match #": 51
+},
+{
+  "Team #": 4080,
+  "Alliance": "Red",
+  "FactId": 304,
+  "Match #": 51
+},
+{
+  "Team #": 5654,
+  "Alliance": "Red",
+  "FactId": 305,
+  "Match #": 51
+},
+{
+  "Team #": 6464,
+  "Alliance": "Red",
+  "FactId": 306,
+  "Match #": 51
+},
+{
+  "Team #": 4841,
+  "Alliance": "Blue",
+  "FactId": 307,
+  "Match #": 52
+},
+{
+  "Team #": 4534,
+  "Alliance": "Blue",
+  "FactId": 308,
+  "Match #": 52
+},
+{
+  "Team #": 6061,
+  "Alliance": "Blue",
+  "FactId": 309,
+  "Match #": 52
+},
+{
+  "Team #": 587,
+  "Alliance": "Red",
+  "FactId": 310,
+  "Match #": 52
+},
+{
+  "Team #": 3303,
+  "Alliance": "Red",
+  "FactId": 311,
+  "Match #": 52
+},
+{
+  "Team #": 86,
+  "Alliance": "Red",
+  "FactId": 312,
+  "Match #": 52
+},
+{
+  "Team #": 2333,
+  "Alliance": "Blue",
+  "FactId": 313,
+  "Match #": 53
+},
+{
+  "Team #": 5414,
+  "Alliance": "Blue",
+  "FactId": 314,
+  "Match #": 53
+},
+{
+  "Team #": 492,
+  "Alliance": "Blue",
+  "FactId": 315,
+  "Match #": 53
+},
+{
+  "Team #": 2415,
+  "Alliance": "Red",
+  "FactId": 316,
+  "Match #": 53
+},
+{
+  "Team #": 3966,
+  "Alliance": "Red",
+  "FactId": 317,
+  "Match #": 53
+},
+{
+  "Team #": 2576,
+  "Alliance": "Red",
+  "FactId": 318,
+  "Match #": 53
+},
+{
+  "Team #": 6739,
+  "Alliance": "Blue",
+  "FactId": 319,
+  "Match #": 54
+},
+{
+  "Team #": 6658,
+  "Alliance": "Blue",
+  "FactId": 320,
+  "Match #": 54
+},
+{
+  "Team #": 6579,
+  "Alliance": "Blue",
+  "FactId": 321,
+  "Match #": 54
+},
+{
+  "Team #": 6357,
+  "Alliance": "Red",
+  "FactId": 322,
+  "Match #": 54
+},
+{
+  "Team #": 3635,
+  "Alliance": "Red",
+  "FactId": 323,
+  "Match #": 54
+},
+{
+  "Team #": 3507,
+  "Alliance": "Red",
+  "FactId": 324,
+  "Match #": 54
+},
+{
+  "Team #": 3574,
+  "Alliance": "Blue",
+  "FactId": 325,
+  "Match #": 55
+},
+{
+  "Team #": 386,
+  "Alliance": "Blue",
+  "FactId": 326,
+  "Match #": 55
+},
+{
+  "Team #": 2135,
+  "Alliance": "Blue",
+  "FactId": 327,
+  "Match #": 55
+},
+{
+  "Team #": 4499,
+  "Alliance": "Red",
+  "FactId": 328,
+  "Match #": 55
+},
+{
+  "Team #": 5109,
+  "Alliance": "Red",
+  "FactId": 329,
+  "Match #": 55
+},
+{
+  "Team #": 5572,
+  "Alliance": "Red",
+  "FactId": 330,
+  "Match #": 55
+},
+{
+  "Team #": 6474,
+  "Alliance": "Blue",
+  "FactId": 331,
+  "Match #": 56
+},
+{
+  "Team #": 5411,
+  "Alliance": "Blue",
+  "FactId": 332,
+  "Match #": 56
+},
+{
+  "Team #": 701,
+  "Alliance": "Blue",
+  "FactId": 333,
+  "Match #": 56
+},
+{
+  "Team #": 6547,
+  "Alliance": "Red",
+  "FactId": 334,
+  "Match #": 56
+},
+{
+  "Team #": 662,
+  "Alliance": "Red",
+  "FactId": 335,
+  "Match #": 56
+},
+{
+  "Team #": 5190,
+  "Alliance": "Red",
+  "FactId": 336,
+  "Match #": 56
+},
+{
+  "Team #": 2231,
+  "Alliance": "Blue",
+  "FactId": 337,
+  "Match #": 57
+},
+{
+  "Team #": 4080,
+  "Alliance": "Blue",
+  "FactId": 338,
+  "Match #": 57
+},
+{
+  "Team #": 4537,
+  "Alliance": "Blue",
+  "FactId": 339,
+  "Match #": 57
+},
+{
+  "Team #": 6061,
+  "Alliance": "Red",
+  "FactId": 340,
+  "Match #": 57
+},
+{
+  "Team #": 4904,
+  "Alliance": "Red",
+  "FactId": 341,
+  "Match #": 57
+},
+{
+  "Team #": 3512,
+  "Alliance": "Red",
+  "FactId": 342,
+  "Match #": 57
+},
+{
+  "Team #": 3478,
+  "Alliance": "Blue",
+  "FactId": 343,
+  "Match #": 58
+},
+{
+  "Team #": 4388,
+  "Alliance": "Blue",
+  "FactId": 344,
+  "Match #": 58
+},
+{
+  "Team #": 5654,
+  "Alliance": "Blue",
+  "FactId": 345,
+  "Match #": 58
+},
+{
+  "Team #": 2333,
+  "Alliance": "Red",
+  "FactId": 346,
+  "Match #": 58
+},
+{
+  "Team #": 4201,
+  "Alliance": "Red",
+  "FactId": 347,
+  "Match #": 58
+},
+{
+  "Team #": 192,
+  "Alliance": "Red",
+  "FactId": 348,
+  "Match #": 58
+},
+{
+  "Team #": 368,
+  "Alliance": "Blue",
+  "FactId": 349,
+  "Match #": 59
+},
+{
+  "Team #": 4516,
+  "Alliance": "Blue",
+  "FactId": 350,
+  "Match #": 59
+},
+{
+  "Team #": 6191,
+  "Alliance": "Blue",
+  "FactId": 351,
+  "Match #": 59
+},
+{
+  "Team #": 6658,
+  "Alliance": "Red",
+  "FactId": 352,
+  "Match #": 59
+},
+{
+  "Team #": 3211,
+  "Alliance": "Red",
+  "FactId": 353,
+  "Match #": 59
+},
+{
+  "Team #": 6357,
+  "Alliance": "Red",
+  "FactId": 354,
+  "Match #": 59
+},
+{
+  "Team #": 3966,
+  "Alliance": "Blue",
+  "FactId": 355,
+  "Match #": 60
+},
+{
+  "Team #": 6171,
+  "Alliance": "Blue",
+  "FactId": 356,
+  "Match #": 60
+},
+{
+  "Team #": 5572,
+  "Alliance": "Blue",
+  "FactId": 357,
+  "Match #": 60
+},
+{
+  "Team #": 1538,
+  "Alliance": "Red",
+  "FactId": 358,
+  "Match #": 60
+},
+{
+  "Team #": 86,
+  "Alliance": "Red",
+  "FactId": 359,
+  "Match #": 60
+},
+{
+  "Team #": 5437,
+  "Alliance": "Red",
+  "FactId": 360,
+  "Match #": 60
+},
+{
+  "Team #": 2486,
+  "Alliance": "Blue",
+  "FactId": 361,
+  "Match #": 61
+},
+{
+  "Team #": 3507,
+  "Alliance": "Blue",
+  "FactId": 362,
+  "Match #": 61
+},
+{
+  "Team #": 199,
+  "Alliance": "Blue",
+  "FactId": 363,
+  "Match #": 61
+},
+{
+  "Team #": 3574,
+  "Alliance": "Red",
+  "FactId": 364,
+  "Match #": 61
+},
+{
+  "Team #": 5696,
+  "Alliance": "Red",
+  "FactId": 365,
+  "Match #": 61
+},
+{
+  "Team #": 5190,
+  "Alliance": "Red",
+  "FactId": 366,
+  "Match #": 61
+},
+{
+  "Team #": 5109,
+  "Alliance": "Blue",
+  "FactId": 367,
+  "Match #": 62
+},
+{
+  "Team #": 6547,
+  "Alliance": "Blue",
+  "FactId": 368,
+  "Match #": 62
+},
+{
+  "Team #": 6464,
+  "Alliance": "Blue",
+  "FactId": 369,
+  "Match #": 62
+},
+{
+  "Team #": 4112,
+  "Alliance": "Red",
+  "FactId": 370,
+  "Match #": 62
+},
+{
+  "Team #": 498,
+  "Alliance": "Red",
+  "FactId": 371,
+  "Match #": 62
+},
+{
+  "Team #": 492,
+  "Alliance": "Red",
+  "FactId": 372,
+  "Match #": 62
+},
+{
+  "Team #": 4355,
+  "Alliance": "Blue",
+  "FactId": 373,
+  "Match #": 63
+},
+{
+  "Team #": 6579,
+  "Alliance": "Blue",
+  "FactId": 374,
+  "Match #": 63
+},
+{
+  "Team #": 4841,
+  "Alliance": "Blue",
+  "FactId": 375,
+  "Match #": 63
+},
+{
+  "Team #": 2415,
+  "Alliance": "Red",
+  "FactId": 376,
+  "Match #": 63
+},
+{
+  "Team #": 2135,
+  "Alliance": "Red",
+  "FactId": 377,
+  "Match #": 63
+},
+{
+  "Team #": 3005,
+  "Alliance": "Red",
+  "FactId": 378,
+  "Match #": 63
+},
+{
+  "Team #": 3635,
+  "Alliance": "Blue",
+  "FactId": 379,
+  "Match #": 64
+},
+{
+  "Team #": 2576,
+  "Alliance": "Blue",
+  "FactId": 380,
+  "Match #": 64
+},
+{
+  "Team #": 2152,
+  "Alliance": "Blue",
+  "FactId": 381,
+  "Match #": 64
+},
+{
+  "Team #": 3303,
+  "Alliance": "Red",
+  "FactId": 382,
+  "Match #": 64
+},
+{
+  "Team #": 5411,
+  "Alliance": "Red",
+  "FactId": 383,
+  "Match #": 64
+},
+{
+  "Team #": 4499,
+  "Alliance": "Red",
+  "FactId": 384,
+  "Match #": 64
+},
+{
+  "Team #": 6411,
+  "Alliance": "Blue",
+  "FactId": 385,
+  "Match #": 65
+},
+{
+  "Team #": 4010,
+  "Alliance": "Blue",
+  "FactId": 386,
+  "Match #": 65
+},
+{
+  "Team #": 587,
+  "Alliance": "Blue",
+  "FactId": 387,
+  "Match #": 65
+},
+{
+  "Team #": 6445,
+  "Alliance": "Red",
+  "FactId": 388,
+  "Match #": 65
+},
+{
+  "Team #": 6474,
+  "Alliance": "Red",
+  "FactId": 389,
+  "Match #": 65
+},
+{
+  "Team #": 6404,
+  "Alliance": "Red",
+  "FactId": 390,
+  "Match #": 65
+},
+{
+  "Team #": 5074,
+  "Alliance": "Blue",
+  "FactId": 391,
+  "Match #": 66
+},
+{
+  "Team #": 3959,
+  "Alliance": "Blue",
+  "FactId": 392,
+  "Match #": 66
+},
+{
+  "Team #": 6739,
+  "Alliance": "Blue",
+  "FactId": 393,
+  "Match #": 66
+},
+{
+  "Team #": 5414,
+  "Alliance": "Red",
+  "FactId": 394,
+  "Match #": 66
+},
+{
+  "Team #": 4364,
+  "Alliance": "Red",
+  "FactId": 395,
+  "Match #": 66
+},
+{
+  "Team #": 386,
+  "Alliance": "Red",
+  "FactId": 396,
+  "Match #": 66
+},
+{
+  "Team #": 2630,
+  "Alliance": "Blue",
+  "FactId": 397,
+  "Match #": 67
+},
+{
+  "Team #": 1817,
+  "Alliance": "Blue",
+  "FactId": 398,
+  "Match #": 67
+},
+{
+  "Team #": 4534,
+  "Alliance": "Blue",
+  "FactId": 399,
+  "Match #": 67
+},
+{
+  "Team #": 4335,
+  "Alliance": "Red",
+  "FactId": 400,
+  "Match #": 67
+},
+{
+  "Team #": 3045,
+  "Alliance": "Red",
+  "FactId": 401,
+  "Match #": 67
+},
+{
+  "Team #": 701,
+  "Alliance": "Red",
+  "FactId": 402,
+  "Match #": 67
+},
+{
+  "Team #": 4388,
+  "Alliance": "Blue",
+  "FactId": 403,
+  "Match #": 68
+},
+{
+  "Team #": 1538,
+  "Alliance": "Blue",
+  "FactId": 404,
+  "Match #": 68
+},
+{
+  "Team #": 4112,
+  "Alliance": "Blue",
+  "FactId": 405,
+  "Match #": 68
+},
+{
+  "Team #": 3512,
+  "Alliance": "Red",
+  "FactId": 406,
+  "Match #": 68
+},
+{
+  "Team #": 6658,
+  "Alliance": "Red",
+  "FactId": 407,
+  "Match #": 68
+},
+{
+  "Team #": 2415,
+  "Alliance": "Red",
+  "FactId": 408,
+  "Match #": 68
+},
+{
+  "Team #": 5411,
+  "Alliance": "Blue",
+  "FactId": 409,
+  "Match #": 69
+},
+{
+  "Team #": 5696,
+  "Alliance": "Blue",
+  "FactId": 410,
+  "Match #": 69
+},
+{
+  "Team #": 6171,
+  "Alliance": "Blue",
+  "FactId": 411,
+  "Match #": 69
+},
+{
+  "Team #": 2333,
+  "Alliance": "Red",
+  "FactId": 412,
+  "Match #": 69
+},
+{
+  "Team #": 3005,
+  "Alliance": "Red",
+  "FactId": 413,
+  "Match #": 69
+},
+{
+  "Team #": 4355,
+  "Alliance": "Red",
+  "FactId": 414,
+  "Match #": 69
+},
+{
+  "Team #": 6404,
+  "Alliance": "Blue",
+  "FactId": 415,
+  "Match #": 70
+},
+{
+  "Team #": 6464,
+  "Alliance": "Blue",
+  "FactId": 416,
+  "Match #": 70
+},
+{
+  "Team #": 4499,
+  "Alliance": "Blue",
+  "FactId": 417,
+  "Match #": 70
+},
+{
+  "Team #": 6191,
+  "Alliance": "Red",
+  "FactId": 418,
+  "Match #": 70
+},
+{
+  "Team #": 4841,
+  "Alliance": "Red",
+  "FactId": 419,
+  "Match #": 70
+},
+{
+  "Team #": 5190,
+  "Alliance": "Red",
+  "FactId": 420,
+  "Match #": 70
+},
+{
+  "Team #": 3303,
+  "Alliance": "Blue",
+  "FactId": 421,
+  "Match #": 71
+},
+{
+  "Team #": 6061,
+  "Alliance": "Blue",
+  "FactId": 422,
+  "Match #": 71
+},
+{
+  "Team #": 6357,
+  "Alliance": "Blue",
+  "FactId": 423,
+  "Match #": 71
+},
+{
+  "Team #": 386,
+  "Alliance": "Red",
+  "FactId": 424,
+  "Match #": 71
+},
+{
+  "Team #": 4010,
+  "Alliance": "Red",
+  "FactId": 425,
+  "Match #": 71
+},
+{
+  "Team #": 5654,
+  "Alliance": "Red",
+  "FactId": 426,
+  "Match #": 71
+},
+{
+  "Team #": 6474,
+  "Alliance": "Blue",
+  "FactId": 427,
+  "Match #": 72
+},
+{
+  "Team #": 2135,
+  "Alliance": "Blue",
+  "FactId": 428,
+  "Match #": 72
+},
+{
+  "Team #": 2576,
+  "Alliance": "Blue",
+  "FactId": 429,
+  "Match #": 72
+},
+{
+  "Team #": 5074,
+  "Alliance": "Red",
+  "FactId": 430,
+  "Match #": 72
+},
+{
+  "Team #": 368,
+  "Alliance": "Red",
+  "FactId": 431,
+  "Match #": 72
+},
+{
+  "Team #": 2486,
+  "Alliance": "Red",
+  "FactId": 432,
+  "Match #": 72
+},
+{
+  "Team #": 4335,
+  "Alliance": "Blue",
+  "FactId": 433,
+  "Match #": 73
+},
+{
+  "Team #": 2152,
+  "Alliance": "Blue",
+  "FactId": 434,
+  "Match #": 73
+},
+{
+  "Team #": 5572,
+  "Alliance": "Blue",
+  "FactId": 435,
+  "Match #": 73
+},
+{
+  "Team #": 3211,
+  "Alliance": "Red",
+  "FactId": 436,
+  "Match #": 73
+},
+{
+  "Team #": 4201,
+  "Alliance": "Red",
+  "FactId": 437,
+  "Match #": 73
+},
+{
+  "Team #": 4904,
+  "Alliance": "Red",
+  "FactId": 438,
+  "Match #": 73
+},
+{
+  "Team #": 4534,
+  "Alliance": "Blue",
+  "FactId": 439,
+  "Match #": 74
+},
+{
+  "Team #": 4080,
+  "Alliance": "Blue",
+  "FactId": 440,
+  "Match #": 74
+},
+{
+  "Team #": 6411,
+  "Alliance": "Blue",
+  "FactId": 441,
+  "Match #": 74
+},
+{
+  "Team #": 3507,
+  "Alliance": "Red",
+  "FactId": 442,
+  "Match #": 74
+},
+{
+  "Team #": 6739,
+  "Alliance": "Red",
+  "FactId": 443,
+  "Match #": 74
+},
+{
+  "Team #": 192,
+  "Alliance": "Red",
+  "FactId": 444,
+  "Match #": 74
+},
+{
+  "Team #": 3045,
+  "Alliance": "Blue",
+  "FactId": 445,
+  "Match #": 75
+},
+{
+  "Team #": 4537,
+  "Alliance": "Blue",
+  "FactId": 446,
+  "Match #": 75
+},
+{
+  "Team #": 5437,
+  "Alliance": "Blue",
+  "FactId": 447,
+  "Match #": 75
+},
+{
+  "Team #": 492,
+  "Alliance": "Red",
+  "FactId": 448,
+  "Match #": 75
+},
+{
+  "Team #": 6579,
+  "Alliance": "Red",
+  "FactId": 449,
+  "Match #": 75
+},
+{
+  "Team #": 4516,
+  "Alliance": "Red",
+  "FactId": 450,
+  "Match #": 75
+},
+{
+  "Team #": 1817,
+  "Alliance": "Blue",
+  "FactId": 451,
+  "Match #": 76
+},
+{
+  "Team #": 86,
+  "Alliance": "Blue",
+  "FactId": 452,
+  "Match #": 76
+},
+{
+  "Team #": 6445,
+  "Alliance": "Blue",
+  "FactId": 453,
+  "Match #": 76
+},
+{
+  "Team #": 3959,
+  "Alliance": "Red",
+  "FactId": 454,
+  "Match #": 76
+},
+{
+  "Team #": 3478,
+  "Alliance": "Red",
+  "FactId": 455,
+  "Match #": 76
+},
+{
+  "Team #": 6547,
+  "Alliance": "Red",
+  "FactId": 456,
+  "Match #": 76
+},
+{
+  "Team #": 5414,
+  "Alliance": "Blue",
+  "FactId": 457,
+  "Match #": 77
+},
+{
+  "Team #": 2630,
+  "Alliance": "Blue",
+  "FactId": 458,
+  "Match #": 77
+},
+{
+  "Team #": 662,
+  "Alliance": "Blue",
+  "FactId": 459,
+  "Match #": 77
+},
+{
+  "Team #": 498,
+  "Alliance": "Red",
+  "FactId": 460,
+  "Match #": 77
+},
+{
+  "Team #": 2231,
+  "Alliance": "Red",
+  "FactId": 461,
+  "Match #": 77
+},
+{
+  "Team #": 3574,
+  "Alliance": "Red",
+  "FactId": 462,
+  "Match #": 77
+},
+{
+  "Team #": 701,
+  "Alliance": "Blue",
+  "FactId": 463,
+  "Match #": 78
+},
+{
+  "Team #": 5109,
+  "Alliance": "Blue",
+  "FactId": 464,
+  "Match #": 78
+},
+{
+  "Team #": 4364,
+  "Alliance": "Blue",
+  "FactId": 465,
+  "Match #": 78
+},
+{
+  "Team #": 3635,
+  "Alliance": "Red",
+  "FactId": 466,
+  "Match #": 78
+},
+{
+  "Team #": 3966,
+  "Alliance": "Red",
+  "FactId": 467,
+  "Match #": 78
+},
+{
+  "Team #": 587,
+  "Alliance": "Red",
+  "FactId": 468,
+  "Match #": 78
+},
+{
+  "Team #": 199,
+  "Alliance": "Blue",
+  "FactId": 469,
+  "Match #": 79
+},
+{
+  "Team #": 3512,
+  "Alliance": "Blue",
+  "FactId": 470,
+  "Match #": 79
+},
+{
+  "Team #": 6357,
+  "Alliance": "Blue",
+  "FactId": 471,
+  "Match #": 79
+},
+{
+  "Team #": 6474,
+  "Alliance": "Red",
+  "FactId": 472,
+  "Match #": 79
+},
+{
+  "Team #": 6411,
+  "Alliance": "Red",
+  "FactId": 473,
+  "Match #": 79
+},
+{
+  "Team #": 4841,
+  "Alliance": "Red",
+  "FactId": 474,
+  "Match #": 79
+},
+{
+  "Team #": 2152,
+  "Alliance": "Blue",
+  "FactId": 475,
+  "Match #": 80
+},
+{
+  "Team #": 4112,
+  "Alliance": "Blue",
+  "FactId": 476,
+  "Match #": 80
+},
+{
+  "Team #": 4080,
+  "Alliance": "Blue",
+  "FactId": 477,
+  "Match #": 80
+},
+{
+  "Team #": 2333,
+  "Alliance": "Red",
+  "FactId": 478,
+  "Match #": 80
+},
+{
+  "Team #": 4537,
+  "Alliance": "Red",
+  "FactId": 479,
+  "Match #": 80
+},
+{
+  "Team #": 6404,
+  "Alliance": "Red",
+  "FactId": 480,
+  "Match #": 80
+},
+{
+  "Team #": 5654,
+  "Alliance": "Blue",
+  "FactId": 481,
+  "Match #": 81
+},
+{
+  "Team #": 6547,
+  "Alliance": "Blue",
+  "FactId": 482,
+  "Match #": 81
+},
+{
+  "Team #": 3045,
+  "Alliance": "Blue",
+  "FactId": 483,
+  "Match #": 81
+},
+{
+  "Team #": 2135,
+  "Alliance": "Red",
+  "FactId": 484,
+  "Match #": 81
+},
+{
+  "Team #": 6739,
+  "Alliance": "Red",
+  "FactId": 485,
+  "Match #": 81
+},
+{
+  "Team #": 3211,
+  "Alliance": "Red",
+  "FactId": 486,
+  "Match #": 81
+},
+{
+  "Team #": 6061,
+  "Alliance": "Blue",
+  "FactId": 487,
+  "Match #": 82
+},
+{
+  "Team #": 192,
+  "Alliance": "Blue",
+  "FactId": 488,
+  "Match #": 82
+},
+{
+  "Team #": 4335,
+  "Alliance": "Blue",
+  "FactId": 489,
+  "Match #": 82
+},
+{
+  "Team #": 2576,
+  "Alliance": "Red",
+  "FactId": 490,
+  "Match #": 82
+},
+{
+  "Team #": 4499,
+  "Alliance": "Red",
+  "FactId": 491,
+  "Match #": 82
+},
+{
+  "Team #": 6171,
+  "Alliance": "Red",
+  "FactId": 492,
+  "Match #": 82
+},
+{
+  "Team #": 587,
+  "Alliance": "Blue",
+  "FactId": 493,
+  "Match #": 83
+},
+{
+  "Team #": 3507,
+  "Alliance": "Blue",
+  "FactId": 494,
+  "Match #": 83
+},
+{
+  "Team #": 1817,
+  "Alliance": "Blue",
+  "FactId": 495,
+  "Match #": 83
+},
+{
+  "Team #": 386,
+  "Alliance": "Red",
+  "FactId": 496,
+  "Match #": 83
+},
+{
+  "Team #": 2415,
+  "Alliance": "Red",
+  "FactId": 497,
+  "Match #": 83
+},
+{
+  "Team #": 6464,
+  "Alliance": "Red",
+  "FactId": 498,
+  "Match #": 83
+},
+{
+  "Team #": 3966,
+  "Alliance": "Blue",
+  "FactId": 499,
+  "Match #": 84
+},
+{
+  "Team #": 3303,
+  "Alliance": "Blue",
+  "FactId": 500,
+  "Match #": 84
+},
+{
+  "Team #": 3959,
+  "Alliance": "Blue",
+  "FactId": 501,
+  "Match #": 84
+},
+{
+  "Team #": 2231,
+  "Alliance": "Red",
+  "FactId": 502,
+  "Match #": 84
+},
+{
+  "Team #": 199,
+  "Alliance": "Red",
+  "FactId": 503,
+  "Match #": 84
+},
+{
+  "Team #": 6579,
+  "Alliance": "Red",
+  "FactId": 504,
+  "Match #": 84
+},
+{
+  "Team #": 6191,
+  "Alliance": "Blue",
+  "FactId": 505,
+  "Match #": 85
+},
+{
+  "Team #": 5572,
+  "Alliance": "Blue",
+  "FactId": 506,
+  "Match #": 85
+},
+{
+  "Team #": 2630,
+  "Alliance": "Blue",
+  "FactId": 507,
+  "Match #": 85
+},
+{
+  "Team #": 2486,
+  "Alliance": "Red",
+  "FactId": 508,
+  "Match #": 85
+},
+{
+  "Team #": 4355,
+  "Alliance": "Red",
+  "FactId": 509,
+  "Match #": 85
+},
+{
+  "Team #": 5414,
+  "Alliance": "Red",
+  "FactId": 510,
+  "Match #": 85
+},
+{
+  "Team #": 4201,
+  "Alliance": "Blue",
+  "FactId": 511,
+  "Match #": 86
+},
+{
+  "Team #": 4534,
+  "Alliance": "Blue",
+  "FactId": 512,
+  "Match #": 86
+},
+{
+  "Team #": 6658,
+  "Alliance": "Blue",
+  "FactId": 513,
+  "Match #": 86
+},
+{
+  "Team #": 5074,
+  "Alliance": "Red",
+  "FactId": 514,
+  "Match #": 86
+},
+{
+  "Team #": 5109,
+  "Alliance": "Red",
+  "FactId": 515,
+  "Match #": 86
+},
+{
+  "Team #": 5411,
+  "Alliance": "Red",
+  "FactId": 516,
+  "Match #": 86
+},
+{
+  "Team #": 86,
+  "Alliance": "Blue",
+  "FactId": 517,
+  "Match #": 87
+},
+{
+  "Team #": 5190,
+  "Alliance": "Blue",
+  "FactId": 518,
+  "Match #": 87
+},
+{
+  "Team #": 4364,
+  "Alliance": "Blue",
+  "FactId": 519,
+  "Match #": 87
+},
+{
+  "Team #": 4516,
+  "Alliance": "Red",
+  "FactId": 520,
+  "Match #": 87
+},
+{
+  "Team #": 4388,
+  "Alliance": "Red",
+  "FactId": 521,
+  "Match #": 87
+},
+{
+  "Team #": 3574,
+  "Alliance": "Red",
+  "FactId": 522,
+  "Match #": 87
+},
+{
+  "Team #": 4904,
+  "Alliance": "Blue",
+  "FactId": 523,
+  "Match #": 88
+},
+{
+  "Team #": 5696,
+  "Alliance": "Blue",
+  "FactId": 524,
+  "Match #": 88
+},
+{
+  "Team #": 3478,
+  "Alliance": "Blue",
+  "FactId": 525,
+  "Match #": 88
+},
+{
+  "Team #": 3635,
+  "Alliance": "Red",
+  "FactId": 526,
+  "Match #": 88
+},
+{
+  "Team #": 492,
+  "Alliance": "Red",
+  "FactId": 527,
+  "Match #": 88
+},
+{
+  "Team #": 1538,
+  "Alliance": "Red",
+  "FactId": 528,
+  "Match #": 88
+},
+{
+  "Team #": 5437,
+  "Alliance": "Blue",
+  "FactId": 529,
+  "Match #": 89
+},
+{
+  "Team #": 3005,
+  "Alliance": "Blue",
+  "FactId": 530,
+  "Match #": 89
+},
+{
+  "Team #": 368,
+  "Alliance": "Blue",
+  "FactId": 531,
+  "Match #": 89
+},
+{
+  "Team #": 498,
+  "Alliance": "Red",
+  "FactId": 532,
+  "Match #": 89
+},
+{
+  "Team #": 701,
+  "Alliance": "Red",
+  "FactId": 533,
+  "Match #": 89
+},
+{
+  "Team #": 6445,
+  "Alliance": "Red",
+  "FactId": 534,
+  "Match #": 89
+},
+{
+  "Team #": 662,
+  "Alliance": "Blue",
+  "FactId": 535,
+  "Match #": 90
+},
+{
+  "Team #": 2135,
+  "Alliance": "Blue",
+  "FactId": 536,
+  "Match #": 90
+},
+{
+  "Team #": 3966,
+  "Alliance": "Blue",
+  "FactId": 537,
+  "Match #": 90
+},
+{
+  "Team #": 4010,
+  "Alliance": "Red",
+  "FactId": 538,
+  "Match #": 90
+},
+{
+  "Team #": 3507,
+  "Alliance": "Red",
+  "FactId": 539,
+  "Match #": 90
+},
+{
+  "Team #": 2630,
+  "Alliance": "Red",
+  "FactId": 540,
+  "Match #": 90
+},
+{
+  "Team #": 3512,
+  "Alliance": "Blue",
+  "FactId": 541,
+  "Match #": 91
+},
+{
+  "Team #": 6191,
+  "Alliance": "Blue",
+  "FactId": 542,
+  "Match #": 91
+},
+{
+  "Team #": 192,
+  "Alliance": "Blue",
+  "FactId": 543,
+  "Match #": 91
+},
+{
+  "Team #": 5572,
+  "Alliance": "Red",
+  "FactId": 544,
+  "Match #": 91
+},
+{
+  "Team #": 6547,
+  "Alliance": "Red",
+  "FactId": 545,
+  "Match #": 91
+},
+{
+  "Team #": 587,
+  "Alliance": "Red",
+  "FactId": 546,
+  "Match #": 91
+},
+{
+  "Team #": 2576,
+  "Alliance": "Blue",
+  "FactId": 547,
+  "Match #": 92
+},
+{
+  "Team #": 4355,
+  "Alliance": "Blue",
+  "FactId": 548,
+  "Match #": 92
+},
+{
+  "Team #": 4537,
+  "Alliance": "Blue",
+  "FactId": 549,
+  "Match #": 92
+},
+{
+  "Team #": 4534,
+  "Alliance": "Red",
+  "FactId": 550,
+  "Match #": 92
+},
+{
+  "Team #": 4364,
+  "Alliance": "Red",
+  "FactId": 551,
+  "Match #": 92
+},
+{
+  "Team #": 2231,
+  "Alliance": "Red",
+  "FactId": 552,
+  "Match #": 92
+},
+{
+  "Team #": 5074,
+  "Alliance": "Blue",
+  "FactId": 553,
+  "Match #": 93
+},
+{
+  "Team #": 1538,
+  "Alliance": "Blue",
+  "FactId": 554,
+  "Match #": 93
+},
+{
+  "Team #": 5190,
+  "Alliance": "Blue",
+  "FactId": 555,
+  "Match #": 93
+},
+{
+  "Team #": 6061,
+  "Alliance": "Red",
+  "FactId": 556,
+  "Match #": 93
+},
+{
+  "Team #": 3045,
+  "Alliance": "Red",
+  "FactId": 557,
+  "Match #": 93
+},
+{
+  "Team #": 2152,
+  "Alliance": "Red",
+  "FactId": 558,
+  "Match #": 93
+},
+{
+  "Team #": 4201,
+  "Alliance": "Blue",
+  "FactId": 559,
+  "Match #": 94
+},
+{
+  "Team #": 4080,
+  "Alliance": "Blue",
+  "FactId": 560,
+  "Match #": 94
+},
+{
+  "Team #": 3005,
+  "Alliance": "Blue",
+  "FactId": 561,
+  "Match #": 94
+},
+{
+  "Team #": 86,
+  "Alliance": "Red",
+  "FactId": 562,
+  "Match #": 94
+},
+{
+  "Team #": 5414,
+  "Alliance": "Red",
+  "FactId": 563,
+  "Match #": 94
+},
+{
+  "Team #": 6357,
+  "Alliance": "Red",
+  "FactId": 564,
+  "Match #": 94
+},
+{
+  "Team #": 6739,
+  "Alliance": "Blue",
+  "FactId": 565,
+  "Match #": 95
+},
+{
+  "Team #": 4499,
+  "Alliance": "Blue",
+  "FactId": 566,
+  "Match #": 95
+},
+{
+  "Team #": 4112,
+  "Alliance": "Blue",
+  "FactId": 567,
+  "Match #": 95
+},
+{
+  "Team #": 4010,
+  "Alliance": "Red",
+  "FactId": 568,
+  "Match #": 95
+},
+{
+  "Team #": 199,
+  "Alliance": "Red",
+  "FactId": 569,
+  "Match #": 95
+},
+{
+  "Team #": 6171,
+  "Alliance": "Red",
+  "FactId": 570,
+  "Match #": 95
+},
+{
+  "Team #": 662,
+  "Alliance": "Blue",
+  "FactId": 571,
+  "Match #": 96
+},
+{
+  "Team #": 5654,
+  "Alliance": "Blue",
+  "FactId": 572,
+  "Match #": 96
+},
+{
+  "Team #": 5109,
+  "Alliance": "Blue",
+  "FactId": 573,
+  "Match #": 96
+},
+{
+  "Team #": 6411,
+  "Alliance": "Red",
+  "FactId": 574,
+  "Match #": 96
+},
+{
+  "Team #": 368,
+  "Alliance": "Red",
+  "FactId": 575,
+  "Match #": 96
+},
+{
+  "Team #": 6579,
+  "Alliance": "Red",
+  "FactId": 576,
+  "Match #": 96
+},
+{
+  "Team #": 3635,
+  "Alliance": "Blue",
+  "FactId": 577,
+  "Match #": 97
+},
+{
+  "Team #": 3211,
+  "Alliance": "Blue",
+  "FactId": 578,
+  "Match #": 97
+},
+{
+  "Team #": 3574,
+  "Alliance": "Blue",
+  "FactId": 579,
+  "Match #": 97
+},
+{
+  "Team #": 6404,
+  "Alliance": "Red",
+  "FactId": 580,
+  "Match #": 97
+},
+{
+  "Team #": 3959,
+  "Alliance": "Red",
+  "FactId": 581,
+  "Match #": 97
+},
+{
+  "Team #": 2415,
+  "Alliance": "Red",
+  "FactId": 582,
+  "Match #": 97
+},
+{
+  "Team #": 5411,
+  "Alliance": "Blue",
+  "FactId": 583,
+  "Match #": 98
+},
+{
+  "Team #": 492,
+  "Alliance": "Blue",
+  "FactId": 584,
+  "Match #": 98
+},
+{
+  "Team #": 386,
+  "Alliance": "Blue",
+  "FactId": 585,
+  "Match #": 98
+},
+{
+  "Team #": 4388,
+  "Alliance": "Red",
+  "FactId": 586,
+  "Match #": 98
+},
+{
+  "Team #": 6445,
+  "Alliance": "Red",
+  "FactId": 587,
+  "Match #": 98
+},
+{
+  "Team #": 4841,
+  "Alliance": "Red",
+  "FactId": 588,
+  "Match #": 98
+},
+{
+  "Team #": 2486,
+  "Alliance": "Blue",
+  "FactId": 589,
+  "Match #": 99
+},
+{
+  "Team #": 5437,
+  "Alliance": "Blue",
+  "FactId": 590,
+  "Match #": 99
+},
+{
+  "Team #": 6658,
+  "Alliance": "Blue",
+  "FactId": 591,
+  "Match #": 99
+},
+{
+  "Team #": 3478,
+  "Alliance": "Red",
+  "FactId": 592,
+  "Match #": 99
+},
+{
+  "Team #": 4335,
+  "Alliance": "Red",
+  "FactId": 593,
+  "Match #": 99
+},
+{
+  "Team #": 1817,
+  "Alliance": "Red",
+  "FactId": 594,
+  "Match #": 99
+},
+{
+  "Team #": 2333,
+  "Alliance": "Blue",
+  "FactId": 595,
+  "Match #": 100
+},
+{
+  "Team #": 498,
+  "Alliance": "Blue",
+  "FactId": 596,
+  "Match #": 100
+},
+{
+  "Team #": 3303,
+  "Alliance": "Blue",
+  "FactId": 597,
+  "Match #": 100
+},
+{
+  "Team #": 6474,
+  "Alliance": "Red",
+  "FactId": 598,
+  "Match #": 100
+},
+{
+  "Team #": 4904,
+  "Alliance": "Red",
+  "FactId": 599,
+  "Match #": 100
+},
+{
+  "Team #": 4516,
+  "Alliance": "Red",
+  "FactId": 600,
+  "Match #": 100
+},
+{
+  "Team #": 6464,
+  "Alliance": "Blue",
+  "FactId": 601,
+  "Match #": 101
+},
+{
+  "Team #": 5696,
+  "Alliance": "Blue",
+  "FactId": 602,
+  "Match #": 101
+},
+{
+  "Team #": 5414,
+  "Alliance": "Blue",
+  "FactId": 603,
+  "Match #": 101
+},
+{
+  "Team #": 701,
+  "Alliance": "Red",
+  "FactId": 604,
+  "Match #": 101
+},
+{
+  "Team #": 2152,
+  "Alliance": "Red",
+  "FactId": 605,
+  "Match #": 101
+},
+{
+  "Team #": 5654,
+  "Alliance": "Red",
+  "FactId": 606,
+  "Match #": 101
+},
+{
+  "Team #": 6579,
+  "Alliance": "Blue",
+  "FactId": 607,
+  "Match #": 102
+},
+{
+  "Team #": 3211,
+  "Alliance": "Blue",
+  "FactId": 608,
+  "Match #": 102
+},
+{
+  "Team #": 192,
+  "Alliance": "Blue",
+  "FactId": 609,
+  "Match #": 102
+},
+{
+  "Team #": 4112,
+  "Alliance": "Red",
+  "FactId": 610,
+  "Match #": 102
+},
+{
+  "Team #": 5074,
+  "Alliance": "Red",
+  "FactId": 611,
+  "Match #": 102
+},
+{
+  "Team #": 3574,
+  "Alliance": "Red",
+  "FactId": 612,
+  "Match #": 102
+},
+{
+  "Team #": 3512,
+  "Alliance": "Blue",
+  "FactId": 613,
+  "Match #": 103
+},
+{
+  "Team #": 4534,
+  "Alliance": "Blue",
+  "FactId": 614,
+  "Match #": 103
+},
+{
+  "Team #": 3005,
+  "Alliance": "Blue",
+  "FactId": 615,
+  "Match #": 103
+},
+{
+  "Team #": 4499,
+  "Alliance": "Red",
+  "FactId": 616,
+  "Match #": 103
+},
+{
+  "Team #": 662,
+  "Alliance": "Red",
+  "FactId": 617,
+  "Match #": 103
+},
+{
+  "Team #": 492,
+  "Alliance": "Red",
+  "FactId": 618,
+  "Match #": 103
+},
+{
+  "Team #": 1817,
+  "Alliance": "Blue",
+  "FactId": 619,
+  "Match #": 104
+},
+{
+  "Team #": 368,
+  "Alliance": "Blue",
+  "FactId": 620,
+  "Match #": 104
+},
+{
+  "Team #": 5109,
+  "Alliance": "Blue",
+  "FactId": 621,
+  "Match #": 104
+},
+{
+  "Team #": 6739,
+  "Alliance": "Red",
+  "FactId": 622,
+  "Match #": 104
+},
+{
+  "Team #": 1538,
+  "Alliance": "Red",
+  "FactId": 623,
+  "Match #": 104
+},
+{
+  "Team #": 4355,
+  "Alliance": "Red",
+  "FactId": 624,
+  "Match #": 104
+},
+{
+  "Team #": 4335,
+  "Alliance": "Blue",
+  "FactId": 625,
+  "Match #": 105
+},
+{
+  "Team #": 3507,
+  "Alliance": "Blue",
+  "FactId": 626,
+  "Match #": 105
+},
+{
+  "Team #": 86,
+  "Alliance": "Blue",
+  "FactId": 627,
+  "Match #": 105
+},
+{
+  "Team #": 5411,
+  "Alliance": "Red",
+  "FactId": 628,
+  "Match #": 105
+},
+{
+  "Team #": 6191,
+  "Alliance": "Red",
+  "FactId": 629,
+  "Match #": 105
+},
+{
+  "Team #": 4010,
+  "Alliance": "Red",
+  "FactId": 630,
+  "Match #": 105
+},
+{
+  "Team #": 4201,
+  "Alliance": "Blue",
+  "FactId": 631,
+  "Match #": 106
+},
+{
+  "Team #": 5190,
+  "Alliance": "Blue",
+  "FactId": 632,
+  "Match #": 106
+},
+{
+  "Team #": 2135,
+  "Alliance": "Blue",
+  "FactId": 633,
+  "Match #": 106
+},
+{
+  "Team #": 5437,
+  "Alliance": "Red",
+  "FactId": 634,
+  "Match #": 106
+},
+{
+  "Team #": 587,
+  "Alliance": "Red",
+  "FactId": 635,
+  "Match #": 106
+},
+{
+  "Team #": 3959,
+  "Alliance": "Red",
+  "FactId": 636,
+  "Match #": 106
+},
+{
+  "Team #": 6411,
+  "Alliance": "Blue",
+  "FactId": 637,
+  "Match #": 107
+},
+{
+  "Team #": 2576,
+  "Alliance": "Blue",
+  "FactId": 638,
+  "Match #": 107
+},
+{
+  "Team #": 5696,
+  "Alliance": "Blue",
+  "FactId": 639,
+  "Match #": 107
+},
+{
+  "Team #": 6547,
+  "Alliance": "Red",
+  "FactId": 640,
+  "Match #": 107
+},
+{
+  "Team #": 2630,
+  "Alliance": "Red",
+  "FactId": 641,
+  "Match #": 107
+},
+{
+  "Team #": 6658,
+  "Alliance": "Red",
+  "FactId": 642,
+  "Match #": 107
+},
+{
+  "Team #": 386,
+  "Alliance": "Blue",
+  "FactId": 643,
+  "Match #": 108
+},
+{
+  "Team #": 4904,
+  "Alliance": "Blue",
+  "FactId": 644,
+  "Match #": 108
+},
+{
+  "Team #": 3966,
+  "Alliance": "Blue",
+  "FactId": 645,
+  "Match #": 108
+},
+{
+  "Team #": 6171,
+  "Alliance": "Red",
+  "FactId": 646,
+  "Match #": 108
+},
+{
+  "Team #": 6474,
+  "Alliance": "Red",
+  "FactId": 647,
+  "Match #": 108
+},
+{
+  "Team #": 3045,
+  "Alliance": "Red",
+  "FactId": 648,
+  "Match #": 108
+},
+{
+  "Team #": 2415,
+  "Alliance": "Blue",
+  "FactId": 649,
+  "Match #": 109
+},
+{
+  "Team #": 199,
+  "Alliance": "Blue",
+  "FactId": 650,
+  "Match #": 109
+},
+{
+  "Team #": 4516,
+  "Alliance": "Blue",
+  "FactId": 651,
+  "Match #": 109
+},
+{
+  "Team #": 4080,
+  "Alliance": "Red",
+  "FactId": 652,
+  "Match #": 109
+},
+{
+  "Team #": 701,
+  "Alliance": "Red",
+  "FactId": 653,
+  "Match #": 109
+},
+{
+  "Team #": 3478,
+  "Alliance": "Red",
+  "FactId": 654,
+  "Match #": 109
+},
+{
+  "Team #": 6445,
+  "Alliance": "Blue",
+  "FactId": 655,
+  "Match #": 110
+},
+{
+  "Team #": 6464,
+  "Alliance": "Blue",
+  "FactId": 656,
+  "Match #": 110
+},
+{
+  "Team #": 4364,
+  "Alliance": "Blue",
+  "FactId": 657,
+  "Match #": 110
+},
+{
+  "Team #": 5572,
+  "Alliance": "Red",
+  "FactId": 658,
+  "Match #": 110
+},
+{
+  "Team #": 2333,
+  "Alliance": "Red",
+  "FactId": 659,
+  "Match #": 110
+},
+{
+  "Team #": 6357,
+  "Alliance": "Red",
+  "FactId": 660,
+  "Match #": 110
+},
+{
+  "Team #": 498,
+  "Alliance": "Blue",
+  "FactId": 661,
+  "Match #": 111
+},
+{
+  "Team #": 4841,
+  "Alliance": "Blue",
+  "FactId": 662,
+  "Match #": 111
+},
+{
+  "Team #": 2486,
+  "Alliance": "Blue",
+  "FactId": 663,
+  "Match #": 111
+},
+{
+  "Team #": 3635,
+  "Alliance": "Red",
+  "FactId": 664,
+  "Match #": 111
+},
+{
+  "Team #": 4537,
+  "Alliance": "Red",
+  "FactId": 665,
+  "Match #": 111
+},
+{
+  "Team #": 6061,
+  "Alliance": "Red",
+  "FactId": 666,
+  "Match #": 111
+},
+{
+  "Team #": 2231,
+  "Alliance": "Blue",
+  "FactId": 667,
+  "Match #": 112
+},
+{
+  "Team #": 3303,
+  "Alliance": "Blue",
+  "FactId": 668,
+  "Match #": 112
+},
+{
+  "Team #": 2630,
+  "Alliance": "Blue",
+  "FactId": 669,
+  "Match #": 112
+},
+{
+  "Team #": 3507,
+  "Alliance": "Red",
+  "FactId": 670,
+  "Match #": 112
+},
+{
+  "Team #": 6404,
+  "Alliance": "Red",
+  "FactId": 671,
+  "Match #": 112
+},
+{
+  "Team #": 4388,
+  "Alliance": "Red",
+  "FactId": 672,
+  "Match #": 112
+}]

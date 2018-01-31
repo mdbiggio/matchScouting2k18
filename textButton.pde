@@ -5,12 +5,13 @@ public class textButton {
  int Tr, Tg, Tb;
  String text;
  boolean activated;
+ boolean isChecked;
  float[] boxCs = {0,0,0,0};
  private static final int kENTER = 10;
  private static final int kBACKSPACE = 8;
  
  // Constructors
- public textButton (int x, int y, int w, int h, int bgR, int bgG, int bgB, int Tr, int Tg, int Tb, String text,boolean activated) {
+ public textButton (int x, int y, int w, int h, int bgR, int bgG, int bgB, int Tr, int Tg, int Tb, String text,boolean activated, boolean isChecked) {
   this.x = x;
   this.y = y;
   this.w = w;
@@ -23,12 +24,14 @@ public class textButton {
   this.Tb = Tb;
   this.text = text;
   this.activated = activated;
+  this.isChecked = isChecked;
   this.boxCs[0] = x;
   this.boxCs[1] = y;
   this.boxCs[2] = w;
   this.boxCs[3] = h;
+ }
   
-  }
+  
   // Methods 
   
   public void updateColor(int bgR, int bgG, int bgB) {
@@ -43,12 +46,14 @@ public class textButton {
     fill(Tr,Tg,Tb);
     text(text, x+10, y+40);
   }
+  
   void mousePressed() {
   int mX=mouseX;
   int mY=mouseY;
 
   if(mX>this.boxCs[0] && mY>this.boxCs[1] && mX<this.boxCs[0]+this.boxCs[2] && mY<this.boxCs[1]+this.boxCs[3]) {
     activated = true;
+    isChecked = true;
     updateColor(220, 220, 220);
   } else {activated = false; updateColor(200, 200, 200);}
 }

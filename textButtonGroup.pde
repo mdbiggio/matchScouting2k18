@@ -27,6 +27,7 @@ public class textButtonGroup {
     this.numButtonsY = numButtonsY;
     this.activatedButton = activatedButton;
     boolean activated = false;
+    boolean isChecked = false;
     textButton thisButton;
     x = x+250;
     currY = y;
@@ -44,7 +45,7 @@ public class textButtonGroup {
         // Need to set the x,y value of each checkBox
         //println(names[l][i]);
 
-        thisButton = new textButton(x+(i-1)*250, currY, 200, 80, 200, 200, 200, 0, 0, 0, names[i][l], activated);
+        thisButton = new textButton(x+(i-1)*250, currY, 200, 80, 200, 200, 200, 0, 0, 0, names[i][l], activated, isChecked);
         //println("Adding 1 checkbox");
         sub.add(thisButton);
       }

@@ -2,6 +2,8 @@
 PrintWriter output;
 PFont font;
 PImage field;
+PImage blackOnTrans;
+PImage flippedField;
 String Input="";
 int v=110;
 int i=0;
@@ -16,8 +18,13 @@ String sS = "30";
 boolean run = false;
 boolean matchEnded;
 Boolean timing = false;
-
+int foulCounter = 0;
+int techFoulCounter = 0;
+int scout = 0;
+int scoutNum = 0;
+String alli;
 int NumOfValsInCycleTimes=0;
+boolean allia = false;
 
 String lastButtonPressed = "";
 String printButtonPressed = "";
@@ -33,7 +40,7 @@ int purple = 0;
 int page = 1;
 
 JSONArray values;
-int scoutNum;
+
 
 JSONObject pathTimes = new JSONObject();
 
@@ -79,17 +86,18 @@ checkBoxGroup pageSelect;
 checkBoxGroup tournament;
 
 // To add check Boxes type: checkBox (unique variable name);
-checkBox disabled;
-checkBox potf;
-checkBox flippedOver;
-checkBox attemptedClimb;
-checkBox successfulClimb;
-checkBox noShow;
-checkBox yellowCard;
-checkBox redCard;
-checkBox techFoul1;
-checkBox foul1;
-
+textButton disabled;
+textButton potf;
+textButton flippedOver;
+textButton attemptedClimb;
+textButton successfulClimb;
+textButton noShow;
+textButton yellowCard;
+textButton redCard;
+textButton techFoul1;
+textButton foul1;
+textButton assistedClimb;
+checkBox flipField;
 // To add text button groups type: textButtonGroup (unique variable name);
 textButtonGroup nameSelect;
 
@@ -99,13 +107,14 @@ textButtonGroup nameSelect;
 boolean mousePos;
 int mX = mouseX;
 int mY = mouseY;
-String alli = "blue";
+
 String activeBox = "";
 
 int matchNumberOut = 1;
 int teamNumberOut = 1111;
 String matchNotesOut = "Notes";
 int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+
 
 ChildApplet child;
 
@@ -115,7 +124,12 @@ void settings() {
 }
 
 void setup () {
+  //if (child.scout >= 4){
+   //allia = true; 
+  //}
   field = loadImage("field.PNG");
+  flippedField = loadImage("fieldFlipped.png");
+  blackOnTrans = loadImage("blackOnTrans.png");
   surface.setTitle("Match Scouting 2017");
   // this is where the team number is chosen via search and choose
   //size(1920, 1080);
@@ -137,34 +151,41 @@ void setup () {
   matchNumber = new counter(10, 900, 120, 80, 200, 200, 200, 0, 0, 0, 1, false);
   teamNumber = new textBox(10, 200, 500, 60, 200, 200, 200, 0, 0, 0, "Team Number: ", false, true, false);
   teamMember = new textBox(10, 300, 500, 60, 200, 200, 200, 0, 0, 0, "Scout  Name: ", false, true, false);
-
+  flipField = new checkBox(140, 700, 200, 200, 200, false);
   //page 2
   times = new textBox(1600, 10, 200, 60, 200, 200, 200, 0, 0, 0, "Time: ", false, false, false);
-  startMatchButton = new textButton(1600, 80, 200, 60, 200, 200, 200, 0, 0, 0, "Start Match", false);
+  startMatchButton = new textButton(1600, 80, 200, 60, 200, 200, 200, 0, 0, 0, "Start Match", false, false);
 
-  loadMatchButton = new textButton(390, 1100, 200, 60, 200, 200, 200, 0, 0, 0, "Load Match", false);  
+  loadMatchButton = new textButton(390, 1100, 200, 60, 200, 200, 200, 0, 0, 0, "Load Match", false,false);  
 
 
-  disabled = new checkBox(600, 870, 200, 200, 200, false);
-  potf = new checkBox(600, 960, 200, 200, 200, false);
-  flippedOver = new checkBox(600, 1050, 200, 200, 200, false);
-  attemptedClimb = new checkBox(1200, 870, 200, 200, 200, false);
-  successfulClimb = new checkBox(1200, 960, 200, 200, 200, false);
-  noShow = new  checkBox(1200, 1050, 200, 200, 200, false);
-  yellowCard = new checkBox(1800, 870, 200, 200, 200, false);
-  redCard = new checkBox(1800, 960, 200, 200, 200, false);
-  techFoul1 = new checkBox(1800, 1050, 200, 200, 200, false);
-  foul1 = new checkBox(1500, 1050, 200, 200, 200,false);
-  portal = new transparentButton(1460, 160, 360, 630, true);
-  opponentSwitch = new transparentButton(1200, 160, 260, 630, false);
-  scale = new transparentButton(857, 160, 180, 630, false);
-  allianceSwitch = new transparentButton(560, 160, 130, 630, false);
-  opponentCubeLineZone = new transparentButton(1037, 160, 163, 630, true);
-  cubeLineZone = new transparentButton(690, 160, 167, 630, true);
-  cubePileZone = new transparentButton(430, 160, 130, 630, true);
-  exchangeDropoff = new transparentButton(70, 160, 180, 630, false);
-  exchangePickup = new transparentButton(250, 160, 180, 630, true);
-  droppedBox = new timerEndingTextButton(70, 880, 80, 80, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
+
+//println(scoutNum);
+
+  
+  disabled = new textButton(600, 870, 225, 70, 200, 200, 200, 0, 0, 0, "Disabled", false,false);
+  potf = new textButton(600, 960, 225, 70, 200, 200, 200, 0, 0, 0, "Parts On Field", false, false);
+  flippedOver = new textButton(600, 1050, 225, 70, 200, 200, 200, 0, 0, 0, "Flipped Over", false, false);
+  attemptedClimb = new textButton(1000, 870, 259, 70, 200, 200, 200, 0, 0, 0, "Attempted Climb", false, false);
+  successfulClimb = new textButton(1000, 960, 259, 70, 200, 200, 200, 0, 0, 0, "Successful Climb", false, false);
+  noShow = new textButton(1000, 1050, 259, 70, 259, 200, 200, 0, 0, 0, "No Show", false, false);
+  yellowCard = new textButton(1600, 870, 200, 70, 200, 200, 200, 0, 0, 0, "Yellow Card", false, false);
+  redCard = new textButton(1600, 960, 200, 70, 200, 200, 200, 0, 0, 0, "Red Card", false, false);
+  techFoul1 = new textButton(1600, 1050, 200, 70, 200, 200, 200, 0, 0, 0, "Tech Foul", false, false);
+  foul1 = new textButton(1400, 1050, 150, 70, 200, 200, 200, 0, 0, 0, "Foul", false, false);
+  assistedClimb = new textButton(70, 970, 225, 70, 200, 200, 200, 0, 0, 0, "Assisted Climb", false, false);
+  droppedBox = new timerEndingTextButton(70, 880, 225, 70, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
+  
+  //transparent buttons on page 2:
+  exchangeDropoff = new transparentButton(75, 160, 235, 630, false);
+  exchangePickup = new transparentButton(310, 160, 120, 630, true);
+  cubePileZone = new transparentButton(430, 160, 120, 630, true);
+  allianceSwitch = new transparentButton(550, 160, 150, 630, false);
+  cubeLineZone = new transparentButton(700, 160, 130, 630, true);
+  scale = new transparentButton(830, 160, 240, 630, false);
+  opponentCubeLineZone = new transparentButton(1070, 160, 130, 630, true);
+  opponentSwitch = new transparentButton(1200, 160, 150, 630, false);
+  portal = new transparentButton(1590, 160, 235, 630, true);
 
 
   //page 3
@@ -173,7 +194,7 @@ void setup () {
   rating = new checkBoxGroup(620, 620, 200, 200, 200, 5, -1);
   defenseRating =  new checkBoxGroup(410, 810, 200, 200, 200, 5, -1);
   offenseRating =  new checkBoxGroup(410, 1000, 200, 200, 200, 5, -1);
-  end = new textButton(1700, 950, 200, 80, 30, 255, 30, 0, 0, 0, "End Match", false);
+  end = new textButton(1700, 950, 200, 80, 30, 255, 30, 0, 0, 0, "End Match", false, false);
 }
 
 void mousePressed() {
@@ -193,6 +214,7 @@ void mousePressed() {
       loadJSON(matchNumber.start);
     }
     tournament.mousePressed();
+    flipField.mousePressed();
   } 
   if (page == 2) {
     disabled.mousePressed();
@@ -254,6 +276,14 @@ void mousePressed() {
       green = 0;
       purple = 1;
     }
+     assistedClimb.mousePressed();
+     if (assistedClimb.isChecked == true) {
+      lastButtonPressed = "assistedClimb";
+      printButtonPressed = "Assisted Climb";
+      red = 0;
+      green = 0;
+      purple = 1;
+     }
      redCard.mousePressed();
     if (redCard.activated == true){
       lastButtonPressed = "redCard";
@@ -308,6 +338,7 @@ void mousePressed() {
     if (techFoul1.activated == true){
      lastButtonPressed = "techFoul1";
      printButtonPressed = "Tech Foul";
+     techFoulCounter++;
      red = 0;
      green = 0;
      purple = 1;
@@ -315,7 +346,8 @@ void mousePressed() {
     }
     foul1.mousePressed();
     if (foul1.activated == true){
-     lastButtonPressed = "foul1"; 
+      foulCounter++;
+      lastButtonPressed = "foul1"; 
      printButtonPressed = "Foul";
      red = 0;
      green = 0;
@@ -343,7 +375,7 @@ void mousePressed() {
       if (lastButtonPressed=="cubeLineZone")
       {
         paths[16] = paths[16]+1;
-        println("path 17 count: "+paths[16]);
+        //println("path 17 count: "+paths[16]);
         saveCycleTime(17, opponentSwitch.FinalTime, paths[16]);
       }
       if (lastButtonPressed=="opponentCubeLineZone")
@@ -538,8 +570,14 @@ void draw() {
 
   // use text(); to write text on the screen.
   // use rect(); to draw rectangles
-
+   
   background(255, 255, 255);
+    
+    tint (0,0,0,100);
+      blackOnTrans.resize(1800,1200);
+    image(blackOnTrans, 0, 0);
+    noTint();
+    
   fill(200);
   rect(10, 10, 420, 80);
   //title
@@ -549,8 +587,9 @@ void draw() {
   alliance.draw();
   text("Alliance (Blue/Red)", 1150, 60);
 
-  pageSelect.draw();
 
+  pageSelect.draw();
+    
 
   if (page == 1) {
     textFont(font, 32);
@@ -562,8 +601,15 @@ void draw() {
     loadMatchButton.draw();
     text("Match Number:", 10, 850);
     tournament.draw();
+    flipField.draw();
+    fill(0, 0, 0);
+    text("Tournament",130, 480);
+    text("WARNING: DO NOT PRESS FLIP FIELD UNLESS ABSOLUTELY NESCSSARY", 400, 750);
+    
+  
   } else if (page == 2) {
 
+    line(1920,0,1920,1200);
     fill(0);
 
     text("Alliance (Blue/Red)", 1150, 60);
@@ -574,21 +620,15 @@ void draw() {
    
     
     
-    fill(0);
-    text("Disabled:", 450, 920);
-    text("Parts on the Field:", 325, 1010);
-    text("Flipped Over:", 395, 1100);
-    text("Attempted Climb:", 860, 920);
-    text("Successful Climb:", 850, 1010);
-    text("No Show:", 1045, 1100);
-    text("Yellow Card:", 1615, 920);
-    text("Red Card:", 1645, 1010);
-    text("Tech Foul:",1645, 1100);
-    text("Foul:", 1340, 1100);
-
-    field.resize(1800, 650);
-    image(field, 50, 150);
-
+    if (flipField.isChecked){
+      flippedField.resize(1800,650);
+      image(flippedField, 50, 150);
+    
+     
+    }else{
+      //field.resize(1800, 650);
+      image(field, 50, 150);
+    }
     text(cycleTimer.currTime(), 900, 850);
 
     timer();// draws timer. should never change.
@@ -606,6 +646,8 @@ void draw() {
     noShow.draw();
     yellowCard.draw();
     redCard.draw();
+    
+    
     portal.draw();
     opponentSwitch.draw();
     scale.draw();
@@ -615,7 +657,112 @@ void draw() {
     exchangeDropoff.draw();
     exchangePickup.draw();
     cubePileZone.draw();
+    
+    if(flipField.isChecked == true && child.alliance == 1) { // flipped scouting red
+      portal.moveButton(1590);
+      cubePileZone.moveButton(1350);
+      allianceSwitch.moveButton(1200);
+      cubeLineZone.moveButton(1070);
+      opponentCubeLineZone.moveButton(700);
+      opponentSwitch.moveButton(550);
+      exchangePickup.moveButton(310);
+      exchangeDropoff.moveButton(75);
+    }
+    
+    if(flipField.isChecked == true && child.alliance == 2) {
+      portal.moveButton(75);                   //1590
+      cubePileZone.moveButton(310);            //1350
+      allianceSwitch.moveButton(550);          //1200
+      cubeLineZone.moveButton(700);            //1070
+      opponentCubeLineZone.moveButton(1070);   //700
+      opponentSwitch.moveButton(1200);         //550
+      exchangePickup.moveButton(1470);         //310
+      exchangeDropoff.moveButton(1590);        //75
+    }
+    
+    
+    
+    
+    
+    
+    
+    //if(flipField.isChecked == false && child.alliance == 1 ){ //field not flipped, scouting red alliance
+    //  println("not flipped, scouting red");
+      
+    //  portal.x = 1460;
+    //  portal.draw();
+      
+    //  opponentSwitch.draw();
+    //  scale.draw(); 
+    //  allianceSwitch.draw();
+    //  opponentCubeLineZone.draw();
+    //  cubeLineZone.draw();
+    //  exchangeDropoff.draw();
+    //  exchangePickup.draw();
+
+        
+    //} 
+    //if(flipField.isChecked == false && child.alliance == 2){ //field not flipped, scouting blue alliance
+    //  println("not flipped, scouting blue");
+      
+    //  portal.x = 70;
+    //  portal.draw();
+    //  opponentSwitch.x = 430;
+    //  opponentSwitch.draw();
+    //  scale.x = 853;
+    //  scale.draw(); 
+    //  allianceSwitch.x = 1200;
+    //  allianceSwitch.draw();
+    //  opponentCubeLineZone.x = 690;
+    //  opponentCubeLineZone.draw();
+    //  cubeLineZone.x = 1033;
+    //  cubeLineZone.draw();
+    //  exchangeDropoff.x = 1460;
+    //  exchangeDropoff.draw();
+    //  exchangePickup.x =1460;
+    //  exchangePickup.draw();
+    //  cubePileZone.x = 1330;
+    //  cubePileZone.draw();
+      
+      
+    //}
+    //if(flipField.isChecked == true && child.alliance == 1){ //field flipped, scouting red alliance
+    //  println("flipped, scouting red");
+      
+    //  portal.x = 70;
+    //  portal.draw();
+    //  opponentSwitch.x = 430;
+    //  opponentSwitch.draw();
+    //  scale.x = 853;
+    //  scale.draw(); 
+    //  allianceSwitch.x = 1200;
+    //  allianceSwitch.draw();
+    //  opponentCubeLineZone.x = 690;
+    //  opponentCubeLineZone.draw();
+    //  cubeLineZone.x = 1033;
+    //  cubeLineZone.draw();
+    //  exchangeDropoff.x = 1460;
+    //  exchangeDropoff.draw();
+    //  exchangePickup.x =1460;
+    //  exchangePickup.draw();
+    //  cubePileZone.x = 1330;
+    //  cubePileZone.draw();
+    //}
+    //if(flipField.isChecked == true && child.alliance == 2){ //field flipped, scouting blue alliance
+    //  println("flipped, scouting blue");
+      
+    //  portal.draw();
+    //  opponentSwitch.draw();
+    //  scale.draw(); 
+    //  allianceSwitch.draw();
+    //  opponentCubeLineZone.draw();
+    //  cubeLineZone.draw();
+    //  exchangeDropoff.draw();
+    //  exchangePickup.draw();
+    //  cubePileZone.draw();
+    //}
     droppedBox.draw();
+    assistedClimb.draw();
     
     //print(printButtonPressed);
     fill(0,0,0);
@@ -683,7 +830,7 @@ void loadJSON(int MATCH) {
   JSONObject match = values.getJSONObject(i); 
 
   //String tournament = match.getString("Tournament");
-  String alli = match.getString("Alliance");
+  alli = match.getString("alliance");
 
   int MATCHNUM = match.getInt("Match #");
   int TEAMNUM = match.getInt("Team #");
@@ -726,6 +873,7 @@ void saveJSON() {
   match.setInt("Exchange Pick Up", exchangePickup.count);
   match.setInt("Cube Line Zone", cubeLineZone.count);
   match.setString("Scout Name", teamMember.input);
+  match.setInt("Scout Number", child.scout);
 
   match.setBoolean("Disabled", disabled.isChecked);
   match.setBoolean("Parts on the Field", potf.isChecked);
@@ -739,7 +887,9 @@ void saveJSON() {
   match.setBoolean("Tech Foul", techFoul1.isChecked);
   match.setBoolean("Foul", foul1.isChecked);
   match.setInt( "Dropped Box", droppedBox.count);
-
+  match.setInt( "Foul",foulCounter);
+  match.setInt( "Tech Foul", techFoulCounter);
+  match.setBoolean("Assisted Climb", assistedClimb.isChecked);
 
   values1.setJSONObject(i, match);
   saveJSONArray(values1, "data/dataOut.json");
@@ -783,7 +933,7 @@ void timer() {
 }
 void saveCycleTime(int Path, float seconds, int currPathCount) {
   
-  println("Path: "+Path+" Seconds: "+seconds);
+  //println("Path: "+Path+" Seconds: "+seconds);
   
   JSONArray cycleTimes = new JSONArray();
   try {
@@ -800,7 +950,7 @@ void saveCycleTime(int Path, float seconds, int currPathCount) {
   
   //println(cycleTime);
   cycleTimes.setJSONObject(NumOfValsInCycleTimes, cycleTime);
-  println(cycleTimes);
+  //println(cycleTimes);
   saveJSONArray(cycleTimes, "data/cycleTimes.JSON");
   
   NumOfValsInCycleTimes++;

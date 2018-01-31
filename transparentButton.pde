@@ -30,8 +30,9 @@ public class transparentButton {
 
   
   public void draw() {
-    noFill();
+    //noFill();
     rect(x,y,w,h);
+    println(x+" "+y);
   }
   
   void mousePressed() {
@@ -52,4 +53,16 @@ public class transparentButton {
   
   
   } // end of mousePressed
+  
+  
+  void moveButton(int newX){
+    x = newX;
+    redraw();
+    boxCs[0]=x;
+    
+  }//end of moveButton
+  
+  
 } //end of class
+
+ 
