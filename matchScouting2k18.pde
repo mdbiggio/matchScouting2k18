@@ -177,15 +177,16 @@ void setup () {
   droppedBox = new timerEndingTextButton(70, 880, 225, 70, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
   
   //transparent buttons on page 2:
-  exchangeDropoff = new transparentButton(75, 160, 235, 630, false);
-  exchangePickup = new transparentButton(310, 160, 120, 630, true);
-  cubePileZone = new transparentButton(430, 160, 120, 630, true);
-  allianceSwitch = new transparentButton(550, 160, 150, 630, false);
-  cubeLineZone = new transparentButton(700, 160, 130, 630, true);
-  scale = new transparentButton(830, 160, 240, 630, false);
-  opponentCubeLineZone = new transparentButton(1070, 160, 130, 630, true);
-  opponentSwitch = new transparentButton(1200, 160, 150, 630, false);
-  portal = new transparentButton(1590, 160, 235, 630, true);
+  portal = new transparentButton(1460, 160, 360, 630, true);
+  opponentSwitch = new transparentButton(1200, 160, 260, 630, false);
+  scale = new transparentButton(857, 160, 180, 630, false);
+  allianceSwitch = new transparentButton(560, 160, 130, 630, false);
+  opponentCubeLineZone = new transparentButton(1037, 160, 163, 630, true);
+  cubeLineZone = new transparentButton(690, 160, 167, 630, true);
+  cubePileZone = new transparentButton(430, 160, 130, 630, true);
+  exchangeDropoff = new transparentButton(70, 160, 180, 630, false);
+  exchangePickup = new transparentButton(250, 160, 180, 630, true);
+  droppedBox = new timerEndingTextButton(70, 880, 80, 80, 200, 200, 200, 0, 0, 0, "Dropped Box", false); 
 
 
   //page 3
@@ -609,7 +610,6 @@ void draw() {
   
   } else if (page == 2) {
 
-    line(1920,0,1920,1200);
     fill(0);
 
     text("Alliance (Blue/Red)", 1150, 60);
@@ -620,15 +620,15 @@ void draw() {
    
     
     
-    if (flipField.isChecked){
-      flippedField.resize(1800,650);
-      image(flippedField, 50, 150);
+   if (flipField.isChecked){
+    flippedField.resize(1800,650);
+    image(flippedField, 50, 150);
     
      
-    }else{
-      //field.resize(1800, 650);
-      image(field, 50, 150);
-    }
+   }else{
+    field.resize(1800, 650);
+    image(field, 50, 150);
+   }
     text(cycleTimer.currTime(), 900, 850);
 
     timer();// draws timer. should never change.
@@ -648,119 +648,72 @@ void draw() {
     redCard.draw();
     
     
+    if(flipField.isChecked == false && child.alliance == 1 ){
+        
     portal.draw();
     opponentSwitch.draw();
-    scale.draw();
+    scale.draw(); 
     allianceSwitch.draw();
     opponentCubeLineZone.draw();
     cubeLineZone.draw();
     exchangeDropoff.draw();
     exchangePickup.draw();
     cubePileZone.draw();
-    
-    if(flipField.isChecked == true && child.alliance == 1) { // flipped scouting red
-      portal.moveButton(1590);
-      cubePileZone.moveButton(1350);
-      allianceSwitch.moveButton(1200);
-      cubeLineZone.moveButton(1070);
-      opponentCubeLineZone.moveButton(700);
-      opponentSwitch.moveButton(550);
-      exchangePickup.moveButton(310);
-      exchangeDropoff.moveButton(75);
+      
     }
-    
-    if(flipField.isChecked == true && child.alliance == 2) {
-      portal.moveButton(75);                   //1590
-      cubePileZone.moveButton(310);            //1350
-      allianceSwitch.moveButton(550);          //1200
-      cubeLineZone.moveButton(700);            //1070
-      opponentCubeLineZone.moveButton(1070);   //700
-      opponentSwitch.moveButton(1200);         //550
-      exchangePickup.moveButton(1470);         //310
-      exchangeDropoff.moveButton(1590);        //75
+    else if(flipField.isChecked == false && child.alliance == 2){
+     
+      portal.x = 70;
+      portal.draw();
+      opponentSwitch.x = 430;
+      opponentSwitch.draw();
+      scale.x = 853;
+      scale.draw(); 
+      allianceSwitch.x = 1200;
+      allianceSwitch.draw();
+      opponentCubeLineZone.x = 690;
+      opponentCubeLineZone.draw();
+      cubeLineZone.x = 1033;
+      cubeLineZone.draw();
+      exchangeDropoff.x = 1460;
+      exchangeDropoff.draw();
+      exchangePickup.x =1460;
+      exchangePickup.draw();
+      cubePileZone.x = 1330;
+      cubePileZone.draw();
     }
+    else if(flipField.isChecked == true && child.alliance == 1){
     
-    
-    
-    
-    
-    
-    
-    //if(flipField.isChecked == false && child.alliance == 1 ){ //field not flipped, scouting red alliance
-    //  println("not flipped, scouting red");
-      
-    //  portal.x = 1460;
-    //  portal.draw();
-      
-    //  opponentSwitch.draw();
-    //  scale.draw(); 
-    //  allianceSwitch.draw();
-    //  opponentCubeLineZone.draw();
-    //  cubeLineZone.draw();
-    //  exchangeDropoff.draw();
-    //  exchangePickup.draw();
-
-        
-    //} 
-    //if(flipField.isChecked == false && child.alliance == 2){ //field not flipped, scouting blue alliance
-    //  println("not flipped, scouting blue");
-      
-    //  portal.x = 70;
-    //  portal.draw();
-    //  opponentSwitch.x = 430;
-    //  opponentSwitch.draw();
-    //  scale.x = 853;
-    //  scale.draw(); 
-    //  allianceSwitch.x = 1200;
-    //  allianceSwitch.draw();
-    //  opponentCubeLineZone.x = 690;
-    //  opponentCubeLineZone.draw();
-    //  cubeLineZone.x = 1033;
-    //  cubeLineZone.draw();
-    //  exchangeDropoff.x = 1460;
-    //  exchangeDropoff.draw();
-    //  exchangePickup.x =1460;
-    //  exchangePickup.draw();
-    //  cubePileZone.x = 1330;
-    //  cubePileZone.draw();
-      
-      
-    //}
-    //if(flipField.isChecked == true && child.alliance == 1){ //field flipped, scouting red alliance
-    //  println("flipped, scouting red");
-      
-    //  portal.x = 70;
-    //  portal.draw();
-    //  opponentSwitch.x = 430;
-    //  opponentSwitch.draw();
-    //  scale.x = 853;
-    //  scale.draw(); 
-    //  allianceSwitch.x = 1200;
-    //  allianceSwitch.draw();
-    //  opponentCubeLineZone.x = 690;
-    //  opponentCubeLineZone.draw();
-    //  cubeLineZone.x = 1033;
-    //  cubeLineZone.draw();
-    //  exchangeDropoff.x = 1460;
-    //  exchangeDropoff.draw();
-    //  exchangePickup.x =1460;
-    //  exchangePickup.draw();
-    //  cubePileZone.x = 1330;
-    //  cubePileZone.draw();
-    //}
-    //if(flipField.isChecked == true && child.alliance == 2){ //field flipped, scouting blue alliance
-    //  println("flipped, scouting blue");
-      
-    //  portal.draw();
-    //  opponentSwitch.draw();
-    //  scale.draw(); 
-    //  allianceSwitch.draw();
-    //  opponentCubeLineZone.draw();
-    //  cubeLineZone.draw();
-    //  exchangeDropoff.draw();
-    //  exchangePickup.draw();
-    //  cubePileZone.draw();
-    //}
+      portal.x = 70;
+      portal.draw();
+      opponentSwitch.x = 430;
+      opponentSwitch.draw();
+      scale.x = 853;
+      scale.draw(); 
+      allianceSwitch.x = 1200;
+      allianceSwitch.draw();
+      opponentCubeLineZone.x = 690;
+      opponentCubeLineZone.draw();
+      cubeLineZone.x = 1033;
+      cubeLineZone.draw();
+      exchangeDropoff.x = 1460;
+      exchangeDropoff.draw();
+      exchangePickup.x =1460;
+      exchangePickup.draw();
+      cubePileZone.x = 1330;
+      cubePileZone.draw();
+    }
+    else if(flipField.isChecked == false && child.alliance == 2){
+    portal.draw();
+    opponentSwitch.draw();
+    scale.draw(); 
+    allianceSwitch.draw();
+    opponentCubeLineZone.draw();
+    cubeLineZone.draw();
+    exchangeDropoff.draw();
+    exchangePickup.draw();
+    cubePileZone.draw();
+    }
     droppedBox.draw();
     assistedClimb.draw();
     
